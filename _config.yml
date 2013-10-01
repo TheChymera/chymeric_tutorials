@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://tutorials.chymera.eu
+title: Chymeric Tutorials
+subtitle: Do awesome stuff - awesomely.
+author: The Chymera Network
 simple_search: http://google.com/search
-description:
+description: Chymeric Tutorials brings you how-to's from an eclectic, chimeric background. You want to learn how to do something, exotic, new, weird, or esoteric? We show you how! And yes, we do take requests.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -73,7 +73,7 @@ twitter_user:
 twitter_tweet_button: true
 
 # Google +1
-google_plus_one: false
+google_plus_one: true
 google_plus_one_size: medium
 
 # Google Plus Profile
@@ -90,11 +90,11 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: chymerictutorials
+disqus_show_comment_count: true
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-44443205-3
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
