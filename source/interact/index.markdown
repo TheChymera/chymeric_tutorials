@@ -19,7 +19,7 @@ If you comment on any specific content please specify the revision which you are
 You can find the identifiers of all revisions (the SHA checksums) by clicking the link displayed at the bottom of every page
 - which commonly looks like this:
 
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/neuroenhance/blob/master/source/interact/index.markdown)!</sup>
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/interact/index.markdown)!</sup>
 
 Once you are on the article's GitHub page you may continue by clicking on the **History** button in the top right.
 The topmost revision is the latest, and you can copy the identifier (SHA) by simply clicking the button which appears when you hover the entry.
@@ -88,4 +88,4 @@ Now, even if we *wanted* to delete all of our hard work - we could not.
 You (and many others, we hope) would still have a copy.   
 
 ---
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/neuroenhance/blob/master/source/interact/index.markdown)!</sup>
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/interact/index.markdown)!</sup>
