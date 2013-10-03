@@ -12,7 +12,7 @@ categories: [gentoo, neuroscience]
 [Gentoo linux](http://en.wikipedia.org/wiki/Gentoo_Linux) is a modern, extremely flexible, and very transparent linux distribution.
 Among many other things it provides:
 
-* Rolling releases (continuous versioning, in brief: no tedious “version updates” for you - ever)
+* Rolling releases (continuous versioning, in brief: no tedious “OS version updates” for you - ever)
 
 * Building from source (custom geared for every machine - from old laptop to data-analysis power-box)
 
@@ -78,7 +78,7 @@ You have 2 choices here:
 
 ###### First Choice:
 Use NeuroGentoo instead of gentoo-science - it is in fact just a branch of it (you will still have access to everything in gentoo-science proper), and I update it frequently.
-For this *instead of* adding gentoo-science as described above you have to enable the NeuroGentoo branch.
+For this, *instead of* adding gentoo-science as described above you have to enable the NeuroGentoo branch.
 To enable the overlay you have to follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
 In short, the procedure is:
 
@@ -86,7 +86,7 @@ In short, the procedure is:
   2. Run ```git clone -b neurogentoo https://github.com/TheChymera/sci.git /usr/local/portage/neurogentoo``` (or whatever other directory you previously chose)..
   
 ###### Second Choice:
-Merge the NeuroGentoo branch into your local gentoo-science repository
+Merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
 *After* following the gentoo-science overlay instructions from the previous section:
    
   1. Navigate to your repository and run ```git remote add chymera https://github.com/TheChymera/sci.git```.
@@ -112,7 +112,7 @@ Yes, NeuroGentoo is supported by Gentoo users and neuroscientists (if you are he
 we do not have paid employees nor do we make a direct profit from this.
 We contribute because neuroscience is important and Gentoo is awesome!
 
-Please submit patches and contribute to the pull requests for [AFNI](https://github.com/gentoo-science/sci/pull/115), [FSL](https://github.com/gentoo-science/sci/pull/118), and [SPM](https://github.com/gentoo-science/sci/pull/107).
+Please submit patches and contribute to the pull requests for [AFNI](https://github.com/gentoo-science/sci/pull/115), [FSL](https://github.com/gentoo-science/sci/pull/118), and [SPM](https://github.com/gentoo-science/sci/pull/107)!
 
 Additional packages are welcome, and we would recommend you submit pull requests *directly* to [gentoo-science](https://github.com/gentoo-science/sci).
 We will however gladly include any working ebuilds in [our overlay](https://github.com/TheChymera/sci.git) - if they take to long to get into gentoo-science.
