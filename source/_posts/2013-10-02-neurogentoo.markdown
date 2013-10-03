@@ -92,7 +92,7 @@ Now that you read, understood, and followed the instructions above - **How-To: N
 
 The stable versions are at your fingertips - if you want anything newer you will just have to [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package). 
 
-{% codeblock get yourself - for instance - PsychoPy: %}
+{% codeblock To get yourself - for instance - PsychoPy, simply run: %}
 emerge psychopy
 {% endcodeblock %}
 
