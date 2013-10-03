@@ -48,7 +48,7 @@ Which you can conveniently access over the popular and stable [**gentoo-science*
 To enable the overlay I suggest you follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
 In short, the procedure is:
 
-  1. Add ```PORTDIR_OVERLAY="/usr/local/portage/sci"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file 
+  1. Add ```PORTDIR_OVERLAY="/usr/local/portage/sci"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file.
   2. Run ```git clone https://github.com/gentoo-science/sci.git /usr/local/portage/sci``` (or whatever other directory you previously chose).
 
 There - wasn't that easy?
@@ -74,13 +74,23 @@ So, these are the packages we are still working on (and which you can already us
 * sci-biology/**spm** - relevant [pull request](https://github.com/gentoo-science/sci/pull/107) *(works wthout MATLAB!)*
 
 While officially unsupported, these packages are just as easy to get as the supported ones.
+You have 2 choices here:
+
+###### First Choice:
+Use NeuroGentoo instead of gentoo-science - it is in fact just a branch of it (you will still have access to everything in gentoo-science proper), and I update it frequently.
+For this *instead of* adding gentoo-science as described above you have to enable the NeuroGentoo branch.
 To enable the overlay you have to follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
 In short, the procedure is:
 
-  1. Add ```PORTDIR_OVERLAY="/usr/local/portage/neurogentoo"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file 
-  2. Run ```git clone -b neurogentoo https://github.com/TheChymera/sci.git /usr/local/portage/neurogentoo``` (or whatever other directory you previously chose).
-
-Alternatively, you can just add the NeuroGentoo overlay instead of gentoo-science - as it is a fork of it (also contains everything gentoo-science does) and I update it frequently.
+  1. Add ```PORTDIR_OVERLAY="/usr/local/portage/neurogentoo"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file.
+  2. Run ```git clone -b neurogentoo https://github.com/TheChymera/sci.git /usr/local/portage/neurogentoo``` (or whatever other directory you previously chose)..
+  
+###### Second Choice:
+Merge the NeuroGentoo branch into your local gentoo-science repository
+*After* following the gentoo-science overlay instructions from the previous section:
+   
+  1. Navigate to your repository and run ```git remote add chymera https://github.com/TheChymera/sci.git```.
+  2. Run ```git pull chymera neurogentoo```.
 
 
 
@@ -92,8 +102,8 @@ Now that you read, understood, and followed the instructions above - **How-To: N
 
 The stable versions are at your fingertips - if you want anything newer you will just have to [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package). 
 
-{% codeblock To get yourself - for instance - PsychoPy, simply run: %}
-emerge psychopy
+{% codeblock To get yourself - for instance - PsychoPy, simply emerge from a root shell: lang:console %}
+localhost root # emerge psychopy
 {% endcodeblock %}
 
 ### Contribute!
