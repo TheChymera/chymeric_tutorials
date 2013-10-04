@@ -83,7 +83,7 @@ To enable the overlay you have to follow the “Manually setting overlay locatio
 In short, the procedure is:
 
   1. Add ```PORTDIR_OVERLAY="/usr/local/portage/neurogentoo"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file.
-  2. Run ```git clone -b neurogentoo https://github.com/TheChymera/sci.git /usr/local/portage/neurogentoo``` (or whatever other directory you previously chose)..
+  2. Run ```git clone -b neurogentoo https://github.com/TheChymera/sci.git /usr/local/portage/neurogentoo``` (or whatever other directory you previously chose).
   
 ###### Second Choice:
 Merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
@@ -115,7 +115,7 @@ We contribute because neuroscience is important and Gentoo is awesome!
 Please submit patches and contribute to the pull requests for [AFNI](https://github.com/gentoo-science/sci/pull/115), [FSL](https://github.com/gentoo-science/sci/pull/118), and [SPM](https://github.com/gentoo-science/sci/pull/107)!
 
 Additional packages are welcome, and we would recommend you submit pull requests *directly* to [gentoo-science](https://github.com/gentoo-science/sci).
-We will however gladly include any working ebuilds in [our overlay](https://github.com/TheChymera/sci.git) - if they take to long to get into gentoo-science.
+We will however gladly include any working ebuilds in [our overlay](https://github.com/TheChymera/sci.git) - if they take too long to get into gentoo-science.
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-02-neurogentoo.markdown)!</sup>
