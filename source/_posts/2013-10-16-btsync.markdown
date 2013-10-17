@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Btsync with SystemD (on Gentoo)"
+title: "Btsync with Systemd (on Gentoo)"
 date: 2013-10-16 22:30
 author: Horea Christian
 comments: true
@@ -39,7 +39,7 @@ Simply go ahead and run ```emerge btsync``` as root from your terminal.
 
 There - wasn't that easy?
 
-##Btsync and SystemD
+##Btsync and Systemd
 
 Based on suggestions found mostly on Arch Linux wiki or forum pages (such as [these instructions](https://wiki.archlinux.org/index.php/Systemd/Services#BitTorrent_Sync)), we have put together a Btsync unit to let you run Btsync as your user.
 You may see our ```btsync@.service``` file [here](https://github.com/TheChymera/chymeric/blob/master/net-p2p/btsync/files/btsync.service).
@@ -68,11 +68,11 @@ We are currently sticking to a fairly simplistic approach to organizing our file
 All Btsync files are installed to ```/opt/btsync```, which is then chowned to root:btsync (meaning the owner is still *root*, but the group is *btsync*).
 This allows any user added to the group the access permissions needed to run btsync.
 
-The config, systemd, and init.d files are located in the repective system directories.
+The config, systemd, and init.d files are located in the respective system directories.
 
 While keeping things simple for installing and running btsync on a desktop or laptop, we should note that this approach imposes certain limitations:
 
-* Using btsync as multiple users on the same machine could lead to issues (we have not tested this, but we doubt it would *just work*)
+* Using btsync as multiple users on the same machine could lead to issues (we have not tested this, but we doubt it would *just work*).
 * All users have the same btsync configuration. You would have to edit the btsync systemd unit *and* create a new config file in your home directory to do otherwise.
 
 ###### Please note that we have not tested the ebuild with udev/init.d . We are very grateful for any input.
