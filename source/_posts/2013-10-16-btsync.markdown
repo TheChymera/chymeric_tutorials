@@ -1,0 +1,81 @@
+---
+layout: post
+title: "Btsync with SystemD (on Gentoo)"
+date: 2013-10-16 22:30
+author: Horea Christian
+comments: true
+categories: [gentoo, systemd]
+---
+
+##What is Btsync?
+
+[Btsync](https://en.wikipedia.org/wiki/BitTorrent_Sync) is a [peer-to-peer](https://en.wikipedia.org/wiki/Peer_to_peer) (p2p) file sharing client.
+Btsync uses the [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) protocol, and is actually formally named “BitTorrent Sync”.
+The p2p file sharing protocol allows users to keep folders in sync without actually having to upload data in the cloud
+(meaning to depend on servers which may not be theirs for storage).
+This is highly beneficial as it allows for better security, more privacy (should you care), and - possibly most importantly - *very* fast sync over local networks.
+
+[Some users](http://forum.bittorrent.com/topic/24050-i-apologize-ahead-of-time-can-the-devs-stop-being-assholes-and-release-the-cryptoarchitectural-documentation-please/) have voiced concerns over the fact that Btsync is closed source.
+While this is regrettable, no actual instances of negative repercussions have been reported - except of course that many may be reluctant to use a closed-source sync client (which most sync clients, sadly, are).
+
+##Btsync and Gentoo
+
+A few ebuilds (e.g. [this one](http://gpo.zugaina.org/net-p2p/btsync)) for Btsync can be found on the internet, but they are outdated, have poor (or no) permission management, and cannot be run with [systemd](https://en.wikipedia.org/wiki/Systemd).
+Here we present an [ebuild and associated files](https://github.com/TheChymera/chymeric/blob/master/net-p2p/btsync/) which enable you to easily get Btsync up and running on your Gentoo system.
+
+<!-- more -->
+
+###Get the Ebuild!
+You can get the ebuild from our very compact [**chymeric overlay**](https://github.com/TheChymera/chymeric.git).
+To enable the overlay I suggest you follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
+In short, the procedure is:
+
+  1. Add ```PORTDIR_OVERLAY="/usr/local/portage/chymeric"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file.
+  2. Run ```git clone https://github.com/TheChymera/chymeric.git /usr/local/portage/chymeric``` (or whatever other directory you previously chose).
+
+###Emerge
+
+Simply go ahead and run ```emerge btsync``` as root from your terminal.
+
+There - wasn't that easy?
+
+##Btsync and SystemD
+
+Following suggestions found mostly on Arch Linux wiki or forum pages (such as [these instructions](https://wiki.archlinux.org/index.php/Systemd/Services#BitTorrent_Sync)), we have put together a Btsync unit to let you run Btsync as your user.
+You may see our ```btsync@.service``` file [here](https://github.com/TheChymera/chymeric/blob/master/net-p2p/btsync/files/btsync.service).
+
+This script allows you the following functionalities:
+
+{% codeblock Start the btsync daemon as your user: lang:console %}
+ # systemctl start btsync@your_user.service
+{% endcodeblock %}
+
+{% codeblock Have the btsync daemon start at startup as your user: lang:console %}
+ # systemctl enable btsync@your_user.service
+{% endcodeblock %}
+
+###Permissions Management
+
+With this set-up your files will be written to your synced directory by your user (not as *root* or *btsync* as you may see elsewhere).
+The main benefit of this is that permissions will never change within your synced directory, and you will always have read, write, and execute access to your files.
+
+Which users are allowed to run btsync is managed by the *btsync* group (which our ebuild automatically creates).
+Without belonging to that group users will be unable to write to the PID file (meaning the service cannot be launched), and unable to write to the storage path (meaning -independently - that the web-GUI cannot be viewed).
+
+###Directory Structure
+
+We are currently sticking to a fairly simplistic approach to organizing our files.
+All Btsync files are installed to ```/opt/btsync```, which is then chowned to root:btsync (meaning the owner is still *root*, but the group is *btsync*).
+This allows any user added to the group the access permissions needed to run btsync.
+
+The config, systemd, and init.d files are located in the repective system directories.
+
+While keeping things quite simple for installing and running btsync on a desktop/laptop, we should note that this approach imposes certain limitations:
+
+* Using btsync as multiple users on the same machine could lead to issues (we haven't tested this, but we doubt it would *just work*)
+* All users have the same btsync configuration. You would have to edit the btsync systemd unit *and* create a new config file in your home directory to do otherwise.
+
+###### Please note that we have not tested the ebuild with udev/init.d . We are very grateful for any input.
+
+---
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-16-btsync.markdown)!</sup>
