@@ -7,7 +7,7 @@ comments: true
 categories: [gentoo, neuroscience]
 ---
 
-# Gentoo
+## Gentoo
 
 [Gentoo linux](http://en.wikipedia.org/wiki/Gentoo_Linux) is a modern, extremely flexible, and very transparent linux distribution.
 Among many other things it provides:
@@ -22,7 +22,7 @@ I'll cut the Gentoo publicity short, and get to the point: **Gentoo is awesome f
 
 
 
-# Neuro
+## Neuro
 
 ### Already In!
 
@@ -91,12 +91,12 @@ Merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo
    
   1. Navigate to your repository and run ```git remote add chymera https://github.com/TheChymera/sci.git```.
   2. Run ```git pull chymera neurogentoo```.
+  
+  
+  
+## NeuroGentoo!
 
-
-
-# NeuroGentoo!
-
-Now that you read, understood, and followed the instructions above - **How-To: NeuroGentoo** boils down to the following:
+Now that you have read, understood, and followed the instructions above - **How-To: NeuroGentoo** boils down to the following:
 
 ### Emerge!
 
