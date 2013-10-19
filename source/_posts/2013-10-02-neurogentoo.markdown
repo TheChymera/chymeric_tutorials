@@ -14,7 +14,7 @@ Among many other things it provides:
 
 * Rolling releases (continuous versioning, in brief: no tedious “OS version updates” for you - ever)
 
-* Building from source (custom geared for every machine - from old laptop to data-analysis power-box)
+* Building from source (custom geared for every machine - from ancient laptop to data-analysis power-box)
 
 * Seamless support for live source packages (get that *very latest* version with that one new function that solves all your problems - directly from the source code upstream wrote 5 minutes ago!)
 
@@ -28,7 +28,7 @@ I'll cut the Gentoo publicity short, and get to the point: **Gentoo is awesome f
 
 Sadly, until a couple of months ago Gentoo provided almost no neuroscience software.
 In response, I started writing up some [ebuilds](http://en.wikipedia.org/wiki/Ebuild) for popular neuroscience (mainly neuropsychology to be precise) software packages.
-With the help of a handful of enthusiastic Gentoo contributors I have managed to help [Portage](<http://en.wikipedia.org/wiki/Portage_(software)>) bring you up-to date and development versions of the following software packages:
+With the help of a handful of enthusiastic Gentoo contributors I have managed to help [Portage](<http://en.wikipedia.org/wiki/Portage_(software)>) bring you up-to-date and development versions of the following software packages:
 
 * sci-biology/**psychopy**
 
@@ -59,7 +59,7 @@ But all is not always fun and games in the world of NeuroGentoo.
 Arguably the most important software packages for neuropsychology and brain imaging - [AFNI](http://en.wikipedia.org/wiki/Afni), [FSL](http://en.wikipedia.org/wiki/FMRIB_Software_Library), and [SPM](http://en.wikipedia.org/wiki/Spm) - got stuck in the pull phase.
 Apparently the packages do not really meet Gentoo security, build, and file management exigences and need to be patched - quite a bit.
 Yours truly currently lacks the knowledge and the time needed to acquire the knowledge to perform such patches.
-The maintainers of gentoo-science apparently lack the impetus.
+Most maintainers of gentoo-science apparently lack the impetus.
 Help would be much appreciated!
 
 But the good news is: 
@@ -77,8 +77,8 @@ While officially unsupported, these packages are just as easy to get as the supp
 You have 2 choices here:
 
 ###### First Choice:
-Use NeuroGentoo instead of gentoo-science - it is in fact just a branch of it (you will still have access to everything in gentoo-science proper), and I update it frequently.
-For this, *instead of* adding gentoo-science as described above you have to enable the NeuroGentoo branch.
+Use NeuroGentoo instead of gentoo-science - it is in fact just a branch of it (you will still have access to everything in gentoo-science proper).
+For this, **instead of** adding gentoo-science *as described above* you have to enable the NeuroGentoo branch.
 To enable the overlay you have to follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
 In short, the procedure is:
 
@@ -87,7 +87,7 @@ In short, the procedure is:
   
 ###### Second Choice:
 Merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
-*After* following the gentoo-science overlay instructions from the previous section:
+**After** following the gentoo-science overlay instructions from the previous section:
    
   1. Navigate to your repository and run ```git remote add chymera https://github.com/TheChymera/sci.git```.
   2. Run ```git pull chymera neurogentoo```.
@@ -103,7 +103,7 @@ Now that you have read, understood, and followed the instructions above - **How-
 The stable versions are at your fingertips - if you want anything newer you will just have to [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package). 
 
 {% codeblock To get yourself - for instance - PsychoPy, simply emerge from a root shell: lang:console %}
-localhost root # emerge psychopy
+# emerge psychopy
 {% endcodeblock %}
 
 ### Contribute!
