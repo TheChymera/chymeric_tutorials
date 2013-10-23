@@ -11,7 +11,7 @@ footer: true
 This is a modern website geared towards seamless integration, transparency, and interactivity! 
 You can interact with us in the following ways:
 
-### Comment!
+## Comment!
 Commenting is simple, fast and fun!
 
 Bear in mind, though, that our pages are versioned and change over time.
@@ -25,7 +25,7 @@ Once you are on the article's GitHub page you may continue by clicking on the **
 The topmost revision is the latest, and you can copy the identifier (SHA) by simply clicking the button which appears when you hover the entry.
 
 
-### Fork!
+## Fork!
 If you would like to directly and 100% constructively contribute to our website you may do so by *modifying its content*!
 
 Every article contains a link to its GitHub page at the very end. You can navigate to that link and *fork* the article (or our entire website) into your own Git repository.
@@ -39,7 +39,7 @@ Don't forget to add yourself under the ```author:``` section after you have edit
 Now, wasn't that easy?
 
 
-### Submit Pull Requests!
+## Submit Pull Requests!
 If you are satisfied with your work and would like to see it published on our blog (along with recognition of your authorship) you may use the convenient GitHub **Pull Request** button to ask us to publish your work.
 This will create a pull request page, where we can discuss how to best merge your file into ours.
 
@@ -69,9 +69,8 @@ After a while your text ends, and then you append the following reference, which
 
 [giannini1986]: https://www.ncbi.nlm.nih.gov/pubmed/3734955 "Giannini AJ, Burge H, Shaheen JM, Price WA (1986). “Khat: another drug of abuse?”. Journal of Psychoactive Drugs 18 (2): 155–8."
 
----
 
-### Cite!
+## Cite!
 Well, this is not that interactive really, but our commitment to versioning is first and foremost in order to allow people to *cite* our articles.
 Providing references is indispensable for making verifiable claims in media, publications, or social networks;
 and sadly, most of the blogosphere cannot provide that.
