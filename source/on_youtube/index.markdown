@@ -18,4 +18,4 @@ To see an index of all our video tutorials please visit:
 ###[The “Chymeric Tutorials” Page](http://www.youtube.com/chymerictutorials)   
 
 ---
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_photography/blob/master/source/on_youtube/index.markdown)!</sup>
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/on_youtube/index.markdown)!</sup>
