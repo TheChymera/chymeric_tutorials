@@ -37,7 +37,7 @@ This should get you started wherever use case approaches fail.
 ## Change Fonts
 
 You can customize the fonts of your Octopress website via [Google Fonts](http://www.google.com/fonts#AboutPlace:about) - a framework which allows you to choose between hundreds of open source fonts, all with large character sets.
-The fonts are loaded in ```/source/_includes/custom/head.html``` and selected in ```/sass/base/_typograpphy.scss```.
+The fonts are loaded in ```/source/_includes/custom/head.html``` and selected in ```/sass/base/_typography.scss```.
 
 You can add the following snippets to your theme to load and use - for instance - the **Lato** font from Google Fonts.
 
@@ -155,4 +155,5 @@ These directories are intended for end-user customization and should **not** be 
 
 Adding any code to (or uncommenting any code from) ```/sass/custom/*.scss``` or ```/source/_includes/custom``` will make your theme slightly less responsive, harder to hack by the end-user, and harder to build any further themes on. 
 
+---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-12-30-octopress-theme.markdown)!</sup>
