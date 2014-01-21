@@ -42,6 +42,8 @@ With the help of a handful of enthusiastic Gentoo contributors I have managed to
 
 * sci-libs/**pydicom**
 
+* sci-biology/**mne-python**
+
 <!-- more -->
 
 Which you can conveniently access over the popular and stable [**gentoo-science**](https://github.com/gentoo-science/sci) overlay.
