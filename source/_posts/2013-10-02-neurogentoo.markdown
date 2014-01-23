@@ -18,7 +18,7 @@ Among many other things it provides:
 
 * Seamless support for live source packages (get that *very latest* version with that one new function that solves all your problems - directly from the source code upstream wrote 5 minutes ago!)
 
-I'll cut the Gentoo publicity short, and get to the point: **Gentoo is awesome for science**.
+Cutting the Gentoo publicity short, and getting to the point: **Gentoo is awesome for science**.
 
 
 
@@ -26,9 +26,9 @@ I'll cut the Gentoo publicity short, and get to the point: **Gentoo is awesome f
 
 ### Already In!
 
-Sadly, until a couple of months ago Gentoo provided almost no neuroscience software.
-In response, I started writing up some [ebuilds](http://en.wikipedia.org/wiki/Ebuild) for popular neuroscience (mainly neuropsychology to be precise) software packages.
-With the help of a handful of enthusiastic Gentoo contributors I have managed to help [Portage](<http://en.wikipedia.org/wiki/Portage_(software)>) bring you up-to-date and development versions of the following software packages:
+Sadly, until July 2013 Gentoo provided almost no neuroscience software.
+In response, we started writing up some [ebuilds](http://en.wikipedia.org/wiki/Ebuild) for popular neuroscience (mainly neuropsychology, to be precise) software packages.
+With the help of a handful of enthusiastic Gentoo-Science overlay maintainers we have managed to help [Portage](<http://en.wikipedia.org/wiki/Portage_(software)>) bring you up-to-date and development versions of the following software packages (in order of ebuild pull):
 
 * sci-biology/**psychopy**
 
@@ -44,10 +44,12 @@ With the help of a handful of enthusiastic Gentoo contributors I have managed to
 
 * sci-biology/**mne-python**
 
+* sci-biology/**pysurfer**
+
 <!-- more -->
 
 Which you can conveniently access over the popular and stable [**gentoo-science**](https://github.com/gentoo-science/sci) overlay.
-To enable the overlay I suggest you follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
+To enable the overlay we suggest you follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
 In short, the procedure is:
 
   1. Add ```PORTDIR_OVERLAY="/usr/local/portage/sci"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file.
@@ -118,6 +120,10 @@ Please submit patches and contribute to the pull requests for [AFNI](https://git
 
 Additional packages are welcome, and we would recommend you submit pull requests *directly* to [gentoo-science](https://github.com/gentoo-science/sci).
 We will however gladly include any working ebuilds in [our overlay](https://github.com/TheChymera/sci.git) - if they take too long to get into gentoo-science.
+
+### Credits
+
+The Neurogentoo initiative was started by [Horea Christian](https://github.com/TheChymera), and notable contributions have been made by [François Bissey](https://github.com/kiwifb) and [Martin Luessi](https://github.com/mluessi).
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-02-neurogentoo.markdown)!</sup>
