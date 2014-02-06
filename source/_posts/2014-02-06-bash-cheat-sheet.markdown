@@ -49,3 +49,6 @@ dmesg | tail -n 100 | wgetpaste
 {% codeblock  lang:bash %}
 $ echo your text here, you may even add special characters: .-, \ \\ \" \; >> /your/file/path
 {% endcodeblock %}
+
+---
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-06-bash-cheat-sheet.markdown)!</sup>

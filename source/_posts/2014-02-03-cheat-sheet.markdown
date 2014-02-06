@@ -3,7 +3,7 @@ layout: post
 title: "Miscellaneous Cheat Sheet"
 date: 2014-02-03 21:20:58 +0100
 comments: true
-categories: [linux, gentoo, bash, coding]
+categories: [linux, coding]
 published: true
 ---
 
@@ -83,3 +83,6 @@ $ git config --global credential.helper "cache --timeout=36000"
 {% codeblock  lang:console %}
 chown -R user your/directory/path/
 {% endcodeblock %}
+
+---
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-03-cheat-sheet.markdown)!</sup>
