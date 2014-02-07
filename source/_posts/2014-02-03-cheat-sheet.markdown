@@ -13,17 +13,17 @@ These instructions use linux commands and directory structures.
 <!-- more -->
 
 ## Change file permissions recursively
-This code would grant all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set:
+This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set:
 {% codeblock  lang:console %}
 # chmod -R a+r your/directory/path/
 {% endcodeblock %}
-Or better yet, using octal:
+Or better yet, use octal to accurately define what permissions the owner, the group, and everyone else has:
 {% codeblock  lang:console %}
 # chmod -R 775 your/directory/path/
 {% endcodeblock %}
 
 ## OpenRC: See and edit runlevels
-This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on system set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
+This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
 {% codeblock  lang:console %}
 # rc-update show/add/del
 {% endcodeblock %}
@@ -42,9 +42,6 @@ Run from the directory containing ```DIR```.
 {% codeblock  lang:console %}
 $ rsync --filter '- */.*' -e "/usr/bin/ssh" --bwlimit=2000 -av DIR user@server.domain.com:your/remote/path/
 {% endcodeblock %}
-
-Quotation marks are optional here and come in handy only if your code snippet contains many special characters (```;```, ```\```, etc.).
-You can escape single characters by prefixing them with a backslash (```\```).
 
 ## Download flash videos under Linux
 
