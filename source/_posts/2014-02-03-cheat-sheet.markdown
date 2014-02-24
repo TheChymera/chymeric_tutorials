@@ -22,6 +22,13 @@ Or better yet, use octal to accurately define what permissions the owner, the gr
 # chmod -R 775 your/directory/path/
 {% endcodeblock %}
 
+## Nested Markdown/reST Syntax
+Use the following too get a bold (or italic, etc.) link via markdown:
+{% codeblock  lang:rest %}
+**[link name](http://address.you.want.to.point.to)**
+{% endcodeblock %}
+In reStructured Text (reST) this feature is on the *to do* list, but not yet available. 
+
 ## OpenRC: See and edit runlevels
 This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
 {% codeblock  lang:console %}
@@ -29,8 +36,9 @@ This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and wil
 {% endcodeblock %}
 
 ## Convert .flac to .mp3
-Here you will need [ffmpeg](http://en.wikipedia.org/wiki/FFmpeg) - a command line program which ships with the FFmpeg libraries on most linux distros 
-(meaning that you probably have it installed already). 
+Here you will need [ffmpeg](http://en.wikipedia.org/wiki/FFmpeg) - a command line program which ships with the FFmpeg libraries,
+and comes together with media playback dependencies on many linux distros 
+(meaning that you probably have it installed already).
 {% codeblock  lang:console %}
 $ ffmpeg -i your/song/path.flac your/song/path.mp3
 {% endcodeblock %}
@@ -43,15 +51,27 @@ Run from the directory containing ```DIR```.
 $ rsync --filter '- */.*' -e "/usr/bin/ssh" --bwlimit=2000 -av DIR user@server.domain.com:your/remote/path/
 {% endcodeblock %}
 
+## Mass copy files without overwriting
+Sometimes you want to copy all files in one (large) directory to another - which already contains some of these files.
+Usually using a file manager of ```cp``` (whithout arguments) for such a task can prove quite tedious.
+Here is an variant using ```rsync``` (recommended):
+{% codeblock  lang:console %}
+$ rsync -tr /copy/from/here/* /copy/to/here/
+{% endcodeblock %}
+And alternative using the ```--no-clobber``` argument for ```cp```:
+{% codeblock  lang:console %}
+$ cp -n /copy/from/here/* /copy/to/here/
+{% endcodeblock %}
+
 ## Download flash videos under Linux
 
 #### 1) Youtube-dl
 
 [Youtube-dl](http://rg3.github.io/youtube-dl/index.html) is a FOSS python script which allows you to download flash videos from not only YouTube, but [over 150 websites](http://rg3.github.io/youtube-dl/supportedsites.html).
-You can download it directly [from the official website](http://rg3.github.io/youtube-dl/download.html) or through your package manager of choice (it is featured on portage and many others).
+You can download it directly [from the official website](http://rg3.github.io/youtube-dl/download.html) or through your package manager of choice (it is provided by portage and many others).
 
 In case you foresee running into DRM restrictions, you may also want to get [RTMPDump](http://rtmpdump.mplayerhq.hu/).
-Youtube-dl calls on RTMPDump automatically if it encounters Adobe's proprietary RTMP protocol and the software is installed. 
+Youtube-dl calls RTMPDump automatically if it encounters Adobe's proprietary RTMP protocol and the software is installed. 
 
 #### 2) Chrome and wget
 

@@ -46,7 +46,7 @@ $ tail -n 100 your/file/path | wgetpaste
 
 and if you want to pipe some output directly from a command (e.g. ```dmesg```) to a bastebin, run:
 
-```console
+```bash
 $ dmesg | tail -n 100 | wgetpaste 
 ```
 
