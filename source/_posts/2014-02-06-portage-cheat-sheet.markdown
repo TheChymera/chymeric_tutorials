@@ -13,34 +13,40 @@ This is a small sample of commands dealing with a series of simple use cases inv
 
 ## Re-emerge all live ebuilds
 The hackish way (re-emerges all packages versioned 9999):
-{% codeblock  lang:console %}
+
+```bash
 # emerge -av `eix -Jc | grep 9999 | cut -d" " -f2 | tr "\n" " "`
-{% endcodeblock %}
+```
 The smart way (re-emerges live packages only if the upstream checksum has changed):
-{% codeblock  lang:console %}
+
+```bash
 # emerge @smart-live-rebuild
-{% endcodeblock %}
+```
 
 ## Emerge stuff using only one core
 This is useful if the package is prone to breakage when using parallel processing (some things can become required before they are compiled).
-{% codeblock  lang:console %}
+
+```bash
 MAKEOPTS=-j1 emerge -vaDNu chromium 
-{% endcodeblock %}
+```
 
 ## What package pulls in foo?
-{% codeblock  lang:console %}
+
+```bash
 $ equery b foo
-{% endcodeblock %}
+```
 
 ## See all packages in world 
-{% codeblock  lang:console %}
+
+```bash
 $ cat /var/lib/portage/world 
-{% endcodeblock %}
+```
 
 ## Find out what package said file belongs to
-{% codeblock  lang:console %}
+
+```bash
 qfile /path/to/file
-{% endcodeblock %}
+```
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-06-portage-cheat-sheet.markdown)!</sup>

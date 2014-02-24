@@ -14,54 +14,62 @@ These instructions use linux commands and directory structures.
 
 ## Change file permissions recursively
 This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set:
-{% codeblock  lang:console %}
+
+```bash
 # chmod -R a+r your/directory/path/
-{% endcodeblock %}
+```
 Or better yet, use octal to accurately define what permissions the owner, the group, and everyone else has:
-{% codeblock  lang:console %}
+
+```bash
 # chmod -R 775 your/directory/path/
-{% endcodeblock %}
+```
 
 ## Nested Markdown/reST Syntax
 Use the following too get a bold (or italic, etc.) link via markdown:
-{% codeblock  lang:rest %}
+
+```bash
 **[link name](http://address.you.want.to.point.to)**
-{% endcodeblock %}
+```
 In reStructured Text (reST) this feature is on the *to do* list, but not yet available. 
 
 ## OpenRC: See and edit runlevels
 This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
-{% codeblock  lang:console %}
+
+```bash
 # rc-update show/add/del
-{% endcodeblock %}
+```
 
 ## Convert .flac to .mp3
 Here you will need [ffmpeg](http://en.wikipedia.org/wiki/FFmpeg) - a command line program which ships with the FFmpeg libraries,
 and comes together with media playback dependencies on many linux distros 
 (meaning that you probably have it installed already).
-{% codeblock  lang:console %}
+
+```bash
 $ ffmpeg -i your/song/path.flac your/song/path.mp3
-{% endcodeblock %}
+```
 
 ## Rsync sub-directory
 Run from the directory containing ```DIR```.
 ```DIR``` is the directory to be synced and created if needed on the remote host.
 **Do not** use trailing slashes after the ```DIR``` directory name or all the contents will get dumped directly into ```your/remote/path/```:
-{% codeblock  lang:console %}
+
+```bash
 $ rsync --filter '- */.*' -e "/usr/bin/ssh" --bwlimit=2000 -av DIR user@server.domain.com:your/remote/path/
-{% endcodeblock %}
+```
 
 ## Mass copy files without overwriting
 Sometimes you want to copy all files in one (large) directory to another - which already contains some of these files.
 Usually using a file manager of ```cp``` (whithout arguments) for such a task can prove quite tedious.
 Here is an variant using ```rsync``` (recommended):
-{% codeblock  lang:console %}
+
+```bash
 $ rsync -tr /copy/from/here/* /copy/to/here/
-{% endcodeblock %}
+```
 And alternative using the ```--no-clobber``` argument for ```cp```:
-{% codeblock  lang:console %}
+
+```bash
 $ cp -n /copy/from/here/* /copy/to/here/
-{% endcodeblock %}
+```
 
 ## Download flash videos under Linux
 
