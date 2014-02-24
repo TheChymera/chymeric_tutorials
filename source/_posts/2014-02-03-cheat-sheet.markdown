@@ -14,34 +14,39 @@ These instructions use linux commands and directory structures.
 
 ## Change file permissions recursively
 This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set:
-{% codeblock  lang:console %}
+
+```bash
 # chmod -R a+r your/directory/path/
-{% endcodeblock %}
+```
 Or better yet, use octal to accurately define what permissions the owner, the group, and everyone else has:
-{% codeblock  lang:console %}
+
+```bash
 # chmod -R 775 your/directory/path/
-{% endcodeblock %}
+```
 
 ## OpenRC: See and edit runlevels
-This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
-{% codeblock  lang:console %}
+This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd).
+
+```bash
 # rc-update show/add/del
-{% endcodeblock %}
+```
 
 ## Convert .flac to .mp3
 Here you will need [ffmpeg](http://en.wikipedia.org/wiki/FFmpeg) - a command line program which ships with the FFmpeg libraries on most linux distros 
-(meaning that you probably have it installed already). 
-{% codeblock  lang:console %}
+(meaning that you probably have it installed already).
+
+```bash
 $ ffmpeg -i your/song/path.flac your/song/path.mp3
-{% endcodeblock %}
+```
 
 ## Rsync sub-directory
 Run from the directory containing ```DIR```.
 ```DIR``` is the directory to be synced and created if needed on the remote host.
-**Do not** use trailing slashes after the ```DIR``` directory name or all the contents will get dumped directly into ```your/remote/path/```:
-{% codeblock  lang:console %}
+**Do not** use trailing slashes after the ```DIR``` directory name or all the contents will get dumped directly into ```your/remote/path/```.
+
+```bash
 $ rsync --filter '- */.*' -e "/usr/bin/ssh" --bwlimit=2000 -av DIR user@server.domain.com:your/remote/path/
-{% endcodeblock %}
+```
 
 ## Download flash videos under Linux
 
@@ -61,25 +66,29 @@ Youtube-dl calls on RTMPDump automatically if it encounters Adobe's proprietary 
 * Return to your chrome cache page and refresh it, your topmost link *should* point to the video
 * Copy the link (in plaintext, *or* copy the link destination and remove the ```chrome://...``` part at its start)
 * Run this from your terminal:
-{% codeblock  lang:console %}
+
+```bash
 $ wget "your_URL" video
-{% endcodeblock %}
+```
 
 ## Edit apps launched at startup in GNOME 3.*
-{% codeblock  lang:console %}
+
+```bash
 $ gnome-session-properties
-{% endcodeblock %}
+```
 
 ##Make Git cache passwords for 10 hours
-{% codeblock  lang:console %}
+
+```bash
 $ git config --global credential.helper cache
 $ git config --global credential.helper "cache --timeout=36000"
-{% endcodeblock %}
+```
 
 ## Change owner of a directory recursively
-{% codeblock  lang:console %}
+
+```bash
 chown -R user your/directory/path/
-{% endcodeblock %}
+```
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-03-cheat-sheet.markdown)!</sup>
