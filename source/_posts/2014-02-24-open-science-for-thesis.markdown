@@ -151,4 +151,4 @@ This is totally easy, and most hosting companies have short how-tos for this onl
 [nature2008]: http://www.nature.com/news/2008/080915/full/455273a.html "Katherine Sanderson. “Data on display”. Nature 15 September 2008. doi:10.1038/455273a"
 
 ---
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-24-open-science-for-dissertations.markdown)!</sup>
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-24-open-science-for-thesis.markdown)!</sup>
