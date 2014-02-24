@@ -81,25 +81,29 @@ Youtube-dl calls RTMPDump automatically if it encounters Adobe's proprietary RTM
 * Return to your chrome cache page and refresh it, your topmost link *should* point to the video
 * Copy the link (in plaintext, *or* copy the link destination and remove the ```chrome://...``` part at its start)
 * Run this from your terminal:
-{% codeblock  lang:console %}
+
+```bash
 $ wget "your_URL" video
-{% endcodeblock %}
+```
 
 ## Edit apps launched at startup in GNOME 3.*
-{% codeblock  lang:console %}
+
+```bash
 $ gnome-session-properties
-{% endcodeblock %}
+```
 
 ##Make Git cache passwords for 10 hours
-{% codeblock  lang:console %}
+
+```bash
 $ git config --global credential.helper cache
 $ git config --global credential.helper "cache --timeout=36000"
-{% endcodeblock %}
+```
 
 ## Change owner of a directory recursively
-{% codeblock  lang:console %}
+
+```bash
 chown -R user your/directory/path/
-{% endcodeblock %}
+```
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-03-cheat-sheet.markdown)!</sup>
