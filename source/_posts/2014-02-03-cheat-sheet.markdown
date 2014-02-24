@@ -49,8 +49,7 @@ $ ffmpeg -i your/song/path.flac your/song/path.mp3
 ```
 
 ## Rsync sub-directory
-Run from the directory containing ```DIR```.
-```DIR``` is the directory to be synced and created if needed on the remote host.
+Run from the directory containing ```DIR```. ```DIR``` is the directory to be synced and created if needed on the remote host.
 **Do not** use trailing slashes after the ```DIR``` directory name or all the contents will get dumped directly into ```your/remote/path/```:
 
 ```bash
