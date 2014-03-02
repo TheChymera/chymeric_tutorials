@@ -15,12 +15,12 @@ These instructions use linux commands and directory structures.
 ## Change file permissions recursively
 This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set:
 
-```bash
+```console
 # chmod -R a+r your/directory/path/
 ```
 Or better yet, use octal to accurately define what permissions the owner, the group, and everyone else has:
 
-```bash
+```console
 # chmod -R 775 your/directory/path/
 ```
 
@@ -35,7 +35,7 @@ In reStructured Text (reST) this feature is on the *to do* list, but not yet ava
 ## OpenRC: See and edit runlevels
 This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
 
-```bash
+```console
 # rc-update show/add/del
 ```
 
@@ -108,8 +108,8 @@ $ git config --global credential.helper "cache --timeout=36000"
 
 ## Change owner of a directory recursively
 
-```bash
-chown -R user your/directory/path/
+```console
+# chown -R user your/directory/path/
 ```
 
 ---

@@ -14,12 +14,12 @@ This is a small sample of commands dealing with a series of simple use cases inv
 ## Re-emerge all live ebuilds
 The hackish way (re-emerges all packages versioned 9999):
 
-```bash
+```console
 # emerge -av `eix -Jc | grep 9999 | cut -d" " -f2 | tr "\n" " "`
 ```
 The smart way (re-emerges live packages only if the upstream checksum has changed):
 
-```bash
+```console
 # emerge @smart-live-rebuild
 ```
 
