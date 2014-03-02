@@ -39,7 +39,7 @@ Additionally - and for the thesis format specifically - we encourage you to use 
 ### GitHub and Git 
 GitHub (register [here](https://github.com/)) is a social coding website which helps you make your work openly available on the web, and which allows others to easily contribute.
 GitHub uses the popular [Git](https://en.wikipedia.org/wiki/Git_(software)) revision control system -
-meaning that on GitHub you will also benefit from all the feature of Git, of which the following are of particular relevance to FOS: 
+meaning that on GitHub you will also benefit from all the features of Git, of which the following are of particular relevance to FOS: 
 
 * A detailed overview of your files' history 
 * Solid backups and proof of authorship 
