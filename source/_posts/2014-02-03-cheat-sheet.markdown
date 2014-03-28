@@ -24,6 +24,13 @@ Or better yet, use octal to accurately define what permissions the owner, the gr
 # chmod -R 775 your/directory/path/
 ```
 
+## Text lookup in folder
+The ```grep``` command with the ```-r``` option lets you find the occurrences of a string inside all files within a folder and all its subfolders.
+
+```bash
+$ grep -r "yourstring" folder1/ folder2/
+```
+
 ## Nested Markdown/reST Syntax
 Use the following too get a bold (or italic, etc.) link via markdown:
 
