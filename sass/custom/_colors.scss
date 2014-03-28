@@ -47,5 +47,5 @@ $solarized: light;
 // Main Link Colors
 $link-color: adjust-color(#7711a0, $lightness: 3, $saturation: -6) !default;
 $link-color-hover: adjust-color($link-color, $lightness: 40, $saturation: -60) !default;
-$link-color-visited: adjust-color($link-color, $lightness: -6, $saturation: -35) !default;
+$link-color-visited: adjust-color($link-color, $lightness: -6, $saturation: -30) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
