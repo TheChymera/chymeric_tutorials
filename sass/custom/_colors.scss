@@ -13,6 +13,8 @@
 //$footer-bg: #ccc !default;
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
+$title-color: #f0f0f0 !default;
+$subtitle-color: darken($title-color, 23) !default;
 
 
 /* To use the light Solarized highlighting theme uncomment the following line */
@@ -43,7 +45,7 @@ $solarized: light;
 //$pre-color: $base1;
 
 // Main Link Colors
-$link-color: lighten(#7711a0, 3) !default;
+$link-color: adjust-color(#7711a0, $lightness: 3, $saturation: -6) !default;
 $link-color-hover: adjust-color($link-color, $lightness: 40, $saturation: -60) !default;
-$link-color-visited: adjust-color($link-color, $lightness: -5, $saturation: -20) !default;
+$link-color-visited: adjust-color($link-color, $lightness: -6, $saturation: -35) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
