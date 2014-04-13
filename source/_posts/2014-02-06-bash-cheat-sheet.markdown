@@ -18,19 +18,19 @@ And say you would like to check if there is any index number wherefore neither a
 The following script would help you find any such indices starting form ```DSC_a0000``` and up to ```DSC_a8888```:
 
 ```bash
-$ for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" && ! -e "${i}.NEF" ]] && echo "No File with $i found"; done
+for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" && ! -e "${i}.NEF" ]] && echo "No File with $i found"; done
 ```
 
 This command can also be easily modified to suit slightly different needs - say you are only interested in indices for which ```.JPG``` files are missing:
 
 ```bash
-$ for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" ]] && echo "No File with $i.JPG found"; done
+for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" ]] && echo "No File with $i.JPG found"; done
 ```
 
 Or specifically indices for which a ```.NEF``` file is present but a ```.JPG``` file is missing:
 
 ```bash
-$ for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" && -e "${i}.NEF" ]] && echo "No File with $i.JPG found, but $i.NEF exists"; done
+for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" && -e "${i}.NEF" ]] && echo "No File with $i.JPG found, but $i.NEF exists"; done
 ```
 
 ## Paste the last 100 lines from some output
@@ -41,19 +41,19 @@ If the part of the output your are interested in is located close to the end, ``
 If you want to paste from a file, run:
 
 ```bash
-$ tail -n 100 your/file/path | wgetpaste
+tail -n 100 your/file/path | wgetpaste
 ```
 
 and if you want to pipe some output directly from a command (e.g. ```dmesg```) to a bastebin, run:
 
 ```bash
-$ dmesg | tail -n 100 | wgetpaste 
+dmesg | tail -n 100 | wgetpaste 
 ```
 
 ## Append text line to text file
 
 ```bash
-$ echo your text here, you may even add special characters: .-, \ \\ \" \; >> /your/file/path
+echo your text here, you may even add special characters: .-, \ \\ \" \; >> /your/file/path
 ```
 
 Quotation marks are optional here and come in handy only if your code snippet contains many special characters (```;```, ```\```, etc.).

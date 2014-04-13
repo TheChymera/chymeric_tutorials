@@ -13,22 +13,33 @@ These instructions use linux commands and directory structures.
 <!-- more -->
 
 ## Change file permissions recursively
-This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set:
+This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set.
+Note that ```chmod``` may need to be run as root.
 
-```console
-# chmod -R a+r your/directory/path/
+```bash
+chmod -R a+r your/directory/path/
 ```
 Or better yet, use octal to accurately define what permissions the owner, the group, and everyone else has:
 
-```console
-# chmod -R 775 your/directory/path/
+```bash
+chmod -R 775 your/directory/path/
 ```
+
+##Remove .orig files from (Git) folder
+Occasionally Git merges may leave you with residual ```.orig``` files which clutter your repository.
+[This question](http://stackoverflow.com/questions/12366150/how-to-delete-orig-files-after-merge-from-git-repository/20895666#20895666) on StackOverflow exemplifies how the issue may arise. 
+To solve the issue run the following command from your repository root.
+
+```bash
+find . -name '*.orig' -delete
+```
+
 
 ## Text lookup in folder
 The ```grep``` command with the ```-r``` option lets you find the occurrences of a string inside all files within a folder and all its subfolders.
 
 ```bash
-$ grep -r "yourstring" folder1/ folder2/
+grep -r "yourstring" folder1/ folder2/
 ```
 
 ## Nested Markdown/reST Syntax
@@ -41,9 +52,10 @@ In reStructured Text (reST) this feature is on the *to do* list, but not yet ava
 
 ## OpenRC: See and edit runlevels
 This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
+Note that ```rc-update``` may need to be run as root.
 
-```console
-# rc-update show/add/del
+```bash
+rc-update show/add/del
 ```
 
 ## Convert .flac to .mp3
@@ -52,7 +64,7 @@ and comes together with media playback dependencies on many linux distros
 (meaning that you probably have it installed already).
 
 ```bash
-$ ffmpeg -i your/song/path.flac your/song/path.mp3
+ffmpeg -i your/song/path.flac your/song/path.mp3
 ```
 
 ## Rsync sub-directory
@@ -60,7 +72,7 @@ Run from the directory containing ```DIR```. ```DIR``` is the directory to be sy
 **Do not** use trailing slashes after the ```DIR``` directory name or all the contents will get dumped directly into ```your/remote/path/```:
 
 ```bash
-$ rsync --filter '- */.*' -e "/usr/bin/ssh" --bwlimit=2000 -av DIR user@server.domain.com:your/remote/path/
+rsync --filter '- */.*' -e "/usr/bin/ssh" --bwlimit=2000 -av DIR user@server.domain.com:your/remote/path/
 ```
 
 ## Mass copy files without overwriting
@@ -69,12 +81,12 @@ Usually using a file manager of ```cp``` (whithout arguments) for such a task ca
 Here is an variant using ```rsync``` (recommended):
 
 ```bash
-$ rsync -tr /copy/from/here/* /copy/to/here/
+rsync -tr /copy/from/here/* /copy/to/here/
 ```
 And alternative using the ```--no-clobber``` argument for ```cp```:
 
 ```bash
-$ cp -n /copy/from/here/* /copy/to/here/
+cp -n /copy/from/here/* /copy/to/here/
 ```
 
 ## Download flash videos under Linux
@@ -97,26 +109,28 @@ Youtube-dl calls RTMPDump automatically if it encounters Adobe's proprietary RTM
 * Run this from your terminal:
 
 ```bash
-$ wget "your_URL" video
+wget "your_URL" video
 ```
 
 ## Edit apps launched at startup in GNOME 3.*
 
 ```bash
-$ gnome-session-properties
+gnome-session-properties
 ```
 
 ##Make Git cache passwords for 10 hours
 
 ```bash
-$ git config --global credential.helper cache
-$ git config --global credential.helper "cache --timeout=36000"
+git config --global credential.helper cache
+git config --global credential.helper "cache --timeout=36000"
 ```
 
 ## Change owner of a directory recursively
 
-```console
-# chown -R user your/directory/path/
+Note that ```chown``` may need to be run as root.
+
+```bash
+chown -R user your/directory/path/
 ```
 
 ---
