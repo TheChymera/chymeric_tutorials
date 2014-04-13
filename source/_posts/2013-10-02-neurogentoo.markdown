@@ -57,7 +57,7 @@ In short, the procedure is:
 
 There - wasn't that easy?
 
-### Work In Progress.
+### Work In Progress:
 
 But all is not always fun and games in the world of NeuroGentoo.
 Arguably the most important software packages for neuropsychology and brain imaging - [AFNI](http://en.wikipedia.org/wiki/Afni), [FSL](http://en.wikipedia.org/wiki/FMRIB_Software_Library), and [SPM](http://en.wikipedia.org/wiki/Spm) - got stuck in the pull phase.
