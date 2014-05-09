@@ -33,23 +33,6 @@ Or specifically indices for which a ```.NEF``` file is present but a ```.JPG``` 
 for i in DSC_a{0000..8547}; do [[ ! -e "${i}.JPG" && -e "${i}.NEF" ]] && echo "No File with $i.JPG found, but $i.NEF exists"; done
 ```
 
-## Paste the last 100 lines from some output
-
-Sometimes your output is too large to paste in whole. 
-If the part of the output your are interested in is located close to the end, ```tail``` can be of good use.
-
-If you want to paste from a file, run:
-
-```bash
-tail -n 100 your/file/path | wgetpaste
-```
-
-and if you want to pipe some output directly from a command (e.g. ```dmesg```) to a bastebin, run:
-
-```bash
-dmesg | tail -n 100 | wgetpaste 
-```
-
 ## Append text line to text file
 
 ```bash
