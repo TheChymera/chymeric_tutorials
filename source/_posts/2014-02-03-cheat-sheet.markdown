@@ -7,10 +7,46 @@ categories: [linux, coding]
 published: true
 ---
 
-This is a collection of simple workflows, commands, or bash scripts solving a series of eclectic use cases which we have encountered in the past.
+This is a collection of workflows, commands, or bash scripts solving a series of common use cases.
 These instructions use linux commands and directory structures. 
 
 <!-- more -->
+
+## Batch Rotate Images
+There are a number of ways to do this.
+One would be via the [GIMP](https://en.wikipedia.org/wiki/GIMP) [script-fu](http://docs.gimp.org/2.8/en/gimp-concepts-script-fu.html), which is awfully complicated to use (as an example of how you would batch rotate files with script-fu, you can see [this thread on StackOverflow](http://stackoverflow.com/questions/23554843/batch-rotate-files-with-gimp)).
+
+If your image happens to be in the JPEG file format, however, you can easily rotate it with a library function called ```jpegtran```.
+This function ships with the ```libjpeg-turbo``` package, which you already have installed if your system is capable of viewing JPEG format files.
+To use this function simply run:
+
+{% codeblock replace .JPG with your respective extension formatting lang:bash %}
+find *.JPG -exec jpegtran -rotate 180 -outfile "{}" "{}" \;
+{% endcodeblock %}
+
+An other option is via [ImageMagick](https://en.wikipedia.org/wiki/Imagemagick), which is easy, but which would require you to download software you may otherwise not need.
+The respective command would be:
+
+{% codeblock replace .png with your respective extension as necessary lang:bash %}
+mogrify -rotate 180 *.png
+{% endcodeblock %}
+
+## Paste the last 100 lines from some output
+
+Sometimes your output is too large to paste in whole. 
+If the part of the output your are interested in is located close to the end, ```tail``` can be of good use.
+
+If you want to paste from a file, run:
+
+```bash
+tail -n 100 your/file/path | wgetpaste
+```
+
+and if you want to pipe some output directly from a command (e.g. ```dmesg```) to a bastebin, run:
+
+```bash
+dmesg | tail -n 100 | wgetpaste 
+```
 
 ## Change file permissions recursively
 This command grants all users read permissions to the folder, subfolders, and all files therein - in addition to whatever permissions are already set.
