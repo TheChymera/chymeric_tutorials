@@ -61,9 +61,7 @@ Not yet well enough for the gentoo-science overlay, but perhaps well enough for 
 So, these are the packages we are still working on (and which you can already use):
 
 * sci-biology/**afni** - relevant [pull request](https://github.com/gentoo-science/sci/pull/115)
-
 * sci-biology/**fsl** - relevant [pull request](https://github.com/gentoo-science/sci/pull/118)
-
 * sci-biology/**spm** - relevant [pull request](https://github.com/gentoo-science/sci/pull/107) *(works wthout MATLAB!)*
 
 While officially unsupported, these packages are just as easy to get as the supported ones.
