@@ -76,14 +76,14 @@ So, these are the packages we are still working on (and which you can already us
 * sci-biology/**spm** - relevant [pull request](https://github.com/gentoo-science/sci/pull/107) *(works wthout MATLAB!)*
 
 While officially unsupported, these packages are just as easy to get as the supported ones.
-You have 2 choices here:
-
-#### Second Choice:
-Merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
-**After** following the gentoo-science overlay instructions from the previous section:
+You can simply merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
+**After** following the gentoo-science overlay instructions from the previous section, run:
    
-  1. Navigate to your repository and run ```git remote add chymera https://github.com/TheChymera/sci.git```.
-  2. Run ```git pull chymera neurogentoo```.
+```bash
+cd /usr/local/portage/sci
+git remote add chymera https://github.com/TheChymera/sci.git
+git pull chymera neurogentoo
+```
     
 ## NeuroGentoo!
 
