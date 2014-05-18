@@ -4,7 +4,7 @@ title: "How-To: NeuroGentoo"
 date: 2013-10-02 09:15
 author: Horea Christian
 comments: true
-categories: [gentoo, neuroscience]
+categories: [Gentoo, neuroscience]
 ---
 
 ## Gentoo
@@ -62,9 +62,7 @@ There - wasn't that easy?
 But all is not always fun and games in the world of NeuroGentoo.
 Arguably the most important software packages for neuropsychology and brain imaging - [AFNI](http://en.wikipedia.org/wiki/Afni), [FSL](http://en.wikipedia.org/wiki/FMRIB_Software_Library), and [SPM](http://en.wikipedia.org/wiki/Spm) - got stuck in the pull phase.
 Apparently the packages do not really meet Gentoo security, build, and file management exigences and need to be patched - quite a bit.
-Yours truly currently lacks the knowledge and the time needed to acquire the knowledge to perform such patches.
-Most maintainers of gentoo-science apparently lack the impetus.
-Help would be much appreciated!
+The Project is community-lead, and help would be much appreciated!
 
 But the good news is: 
 The packages kind of work!
@@ -80,39 +78,28 @@ So, these are the packages we are still working on (and which you can already us
 While officially unsupported, these packages are just as easy to get as the supported ones.
 You have 2 choices here:
 
-###### First Choice:
-Use NeuroGentoo instead of gentoo-science - it is in fact just a branch of it (you will still have access to everything in gentoo-science proper).
-For this, **instead of** adding gentoo-science *as described above* you have to enable the NeuroGentoo branch.
-To enable the overlay you have to follow the “Manually setting overlay locations” instructions from the [Gentoo overlay guide](http://wiki.gentoo.org/wiki/Overlay).
-In short, the procedure is:
-
-  1. Add ```PORTDIR_OVERLAY="/usr/local/portage/neurogentoo"``` (or whatever directory you prefer) to your ```/etc/portage/make.conf``` file.
-  2. Run ```git clone -b neurogentoo https://github.com/TheChymera/sci.git /usr/local/portage/neurogentoo``` (or whatever other directory you previously chose).
-  
-###### Second Choice:
+#### Second Choice:
 Merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
 **After** following the gentoo-science overlay instructions from the previous section:
    
   1. Navigate to your repository and run ```git remote add chymera https://github.com/TheChymera/sci.git```.
   2. Run ```git pull chymera neurogentoo```.
-  
-  
-  
+    
 ## NeuroGentoo!
 
 Now that you have read, understood, and followed the instructions above - **How-To: NeuroGentoo** boils down to the following:
 
 ### Emerge!
 
-The stable versions are at your fingertips - if you want anything newer you will just have to [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package). 
+The stable versions are at your fingertips - and if you want the cutting-edge development versions you can just [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package). 
 
-{% codeblock To get yourself - for instance - PsychoPy, simply emerge from a root shell: lang:console %}
+{% codeblock To install - for instance - PsychoPy, simply emerge from a root shell: lang:console %}
 # emerge psychopy
 {% endcodeblock %}
 
 ### Contribute!
 
-Yes, NeuroGentoo is supported by Gentoo users and neuroscientists (if you are here you may well be at least one of those) - 
+Yes, NeuroGentoo is supported by Gentoo users and neuroscientists (if you are here you might well be at least one of those) - 
 we do not have paid employees nor do we make a direct profit from this.
 We contribute because neuroscience is important and Gentoo is awesome!
 
@@ -123,7 +110,7 @@ We will however gladly include any working ebuilds in [our overlay](https://gith
 
 ### Credits
 
-The Neurogentoo initiative was started by [Horea Christian](https://github.com/TheChymera), and notable contributions have been made by [François Bissey](https://github.com/kiwifb) and [Martin Luessi](https://github.com/mluessi).
+The Neurogentoo initiative is coordinated by [Horea Christian](https://github.com/TheChymera), and contributors include [François Bissey](https://github.com/kiwifb) and [Martin Luessi](https://github.com/mluessi).
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-02-neurogentoo.markdown)!</sup>
