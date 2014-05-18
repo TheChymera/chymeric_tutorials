@@ -13,9 +13,7 @@ categories: [Gentoo, neuroscience]
 Among many other things it provides:
 
 * Rolling releases (continuous versioning, in brief: no tedious “OS version updates” for you - ever)
-
 * Building from source (custom geared for every machine - from ancient laptop to data-analysis power-box)
-
 * Seamless support for live source packages (get that *very latest* version with that one new function that solves all your problems - directly from the source code upstream wrote 5 minutes ago!)
 
 Cutting the Gentoo publicity short, and getting to the point: **Gentoo is awesome for science**.
@@ -31,19 +29,12 @@ In response, we started writing up some [ebuilds](http://en.wikipedia.org/wiki/E
 With the help of a handful of enthusiastic Gentoo-Science overlay maintainers we have managed to help [Portage](<http://en.wikipedia.org/wiki/Portage_(software)>) bring you up-to-date and development versions of the following software packages (in order of ebuild pull):
 
 * sci-biology/**psychopy**
-
 * sci-biology/**pybrain**
-
 * sci-libs/**nipy**
-
 * sci-libs/**nipype**
-
 * sci-libs/**nibabel**
-
 * sci-libs/**pydicom**
-
 * sci-biology/**mne-python**
-
 * sci-biology/**pysurfer**
 
 <!-- more -->
