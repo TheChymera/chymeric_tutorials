@@ -3,7 +3,7 @@ layout: post
 title: "bash cheat sheet"
 date: 2014-02-06 23:35:02 +0200
 comments: true
-categories: [linux, gentoo, bash, coding]
+categories: [Linux, Gentoo, bash, coding]
 published: true
 ---
 
