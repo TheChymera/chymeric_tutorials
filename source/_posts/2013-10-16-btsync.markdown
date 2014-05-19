@@ -4,7 +4,7 @@ title: "Btsync with Systemd (on Gentoo)"
 date: 2013-10-16 22:30
 author: Horea Christian
 comments: true
-categories: [gentoo, systemd, coding]
+categories: [Gentoo, systemd, ebuild, coding]
 ---
 
 ##What is Btsync?
