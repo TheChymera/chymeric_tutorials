@@ -81,3 +81,5 @@ Note that while the linked image is updated daily , the DD image is *unmaintaine
 In principle, however, this is the same as doing a stage 4 installation (see above), with the added overhead of the NOOBS install manager.
 Overall we do not recommend this.
 
+---
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-05-21-gentoo-for-the-raspberry-pi.markdown)!</sup>

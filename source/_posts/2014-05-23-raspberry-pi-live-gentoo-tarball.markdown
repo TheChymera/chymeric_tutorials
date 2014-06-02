@@ -122,3 +122,6 @@ sys-kernel/raspberrypi-sources
 
 To speed up your Raspberry, we have enabled a few optimizations (medium overclocking and reduced GPU memory) in the ```/boot/config.txt``` file.
 For more information on these or other potential optimizations please consult the [relevant section](http://wiki.gentoo.org/wiki/Raspberry_Pi_Quick_Install_Guide#Overclocking) on the Gentoo wiki.
+
+---
+<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-05-23-raspberry-pi-live-gentoo-tarball.markdown)!</sup>
