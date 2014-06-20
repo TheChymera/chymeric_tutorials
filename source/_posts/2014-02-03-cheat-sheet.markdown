@@ -2,6 +2,7 @@
 layout: post
 title: "Miscellaneous Cheat Sheet"
 date: 2014-02-03 21:20:58 +0100
+author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
 categories: [linux, coding]
 published: true
@@ -11,6 +12,14 @@ This is a collection of workflows, commands, or bash scripts solving a series of
 These instructions use linux commands and directory structures. 
 
 <!-- more -->
+
+## List Files Versioned with Git
+
+To get a list of all the files in your git repository (excluding untracked files from your repo directory), run the following:
+
+```bash
+git ls-tree --full-tree -r HEAD
+```
 
 ## Batch Rotate Images
 There are a number of ways to do this.
