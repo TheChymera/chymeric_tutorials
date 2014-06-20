@@ -2,6 +2,7 @@
 layout: post
 title: "Raspberry Pi Chymeric Paper Case"
 date: 2014-04-03 22:28:15 +0200
+author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
 categories: [DIY, do it yourself, RPi, Raspberry Pi, design]
 published: false

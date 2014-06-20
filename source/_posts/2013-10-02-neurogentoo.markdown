@@ -2,7 +2,7 @@
 layout: post
 title: "How-To: NeuroGentoo"
 date: 2013-10-02 09:15
-author: Horea Christian
+author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
 categories: [Gentoo, neuroscience]
 ---

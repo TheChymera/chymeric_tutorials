@@ -2,6 +2,7 @@
 layout: post
 title: "bash cheat sheet"
 date: 2014-02-06 23:35:02 +0200
+author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
 categories: [Linux, Gentoo, bash, coding]
 published: true

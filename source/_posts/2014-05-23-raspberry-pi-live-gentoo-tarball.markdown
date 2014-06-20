@@ -2,6 +2,7 @@
 layout: post
 title: "Raspberry Pi Stage 4 Gentoo Tarball"
 date: 2014-05-23 02:19:37 +0200
+author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
 categories: [FOSS, Gentoo, Raspberry Pi, download]
 published: true
