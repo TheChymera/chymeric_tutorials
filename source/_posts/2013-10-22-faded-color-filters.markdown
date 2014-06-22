@@ -5,7 +5,7 @@ date: 2013-10-22 03:05
 author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
 categories: [processing, filters, RawTherapee, color, photos]
-published: true
+published: false
 ---
 
 In a [tumblr post](http://tmblr.co/ZHI4LqyOnj9f) regarding this issue we presented a conservatively processed version of the image at hand along with 3 of our more polished attempts at using ex-post faded color filtering.
