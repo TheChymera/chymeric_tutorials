@@ -12,9 +12,15 @@ This is a collection of workflows, commands, or bash scripts solving a series of
 These instructions use linux commands and directory structures. 
 
 <!-- more -->
+## Copy Remote Folders
+There are a number of commands which you can use to transfer files and folders remotely via the command line interface (CLI).
+On of them is ```scp``` (which stands for secure copy) and uses the SSH protocol.
+
+```bash
+scp -r user@your.server.example.com:/path/to/your/files /your/desired/destination
+```
 
 ## List Files Versioned with Git
-
 To get a list of all the files in your git repository (excluding untracked files from your repo directory), run the following:
 
 ```bash
