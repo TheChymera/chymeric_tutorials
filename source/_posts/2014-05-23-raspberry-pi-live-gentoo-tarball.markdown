@@ -10,7 +10,7 @@ published: true
 
 [Tarballs](https://en.wikipedia.org/wiki/Tarball) (a term for ```.tar``` archives) are a common medium for installing the [Gentoo Linux](https://en.wikipedia.org/wiki/Gentoo_linux) operating system.
 The standard Gentoo installation starts with a non-bootable "stage 3" tarball, which includes only very limited software.
-As discussed in a [previous article](http://tutorials.chymera.eu/blog/2014/05/21/gentoo-for-the-raspberry-pi/), on the Raspberry Pi - and other embedded systems - it is in certain respects better to start off with a bootable (and wifi-capable) tarball.
+As discussed in a [previous article](http://chymeric.eu/blog/2014/05/21/gentoo-for-the-raspberry-pi/), on the Raspberry Pi - and other embedded systems - it is in certain respects better to start off with a bootable (and wifi-capable) tarball.
 
 For these purposes we are publishing a stage 4 tarball with all the basic software you need on the Raspberry Pi - including the **sys-kernel/linux-firmware** package for broad wifi-device support and a Git repository for customizing and deploying the newest Raspberry Pi kernel sources from [upstream](git://github.com/raspberrypi/linux.git).
 Though the archives total under 1 GB in size, we recommend you use at least an 8 GB SD card for use with your Raspberry Pi.

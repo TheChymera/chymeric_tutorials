@@ -60,7 +60,7 @@ Installing them is as easy as extracting the archive to a partitioned disk, and 
 There are no official stage 4 tarballs for the Raspberry Pi; this owes to the fact that in setting up a stage 4 tarball, the developer invariably makes a few choices for the end-user.
 These changes are easily undone, but this is not considered the *Gentoo way* of doing things.
 
-We have a [detailed guide](http://tutorials.chymera.eu/blog/2014/05/23/raspberry-pi-live-gentoo-tarball/) for this simple Gentoo installation, and the stage 4 tarballs are available for download, [here](http://chymera.eu/resources/gentoo-stage4/) (one archive for the boot partition, one for the system partition).
+We have a [detailed guide](http://chymeric.eu/blog/2014/05/23/raspberry-pi-live-gentoo-tarball/) for this simple Gentoo installation, and the stage 4 tarballs are available for download, [here](http://chymera.eu/resources/gentoo-stage4/) (one archive for the boot partition, one for the system partition).
 We strive to update the tarball once every 3 months, and we *last updated May 2014*. 
 There are a few other Gentoo stage 4 tarballs for the Raspberry Pi available for download, e.g. [one by intelminer](http://intelminer.com/raspberrypi/) (tarball unmaintained as of July 2012).
 
