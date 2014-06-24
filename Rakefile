@@ -6,7 +6,7 @@ require "stringex"
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
 ssh_user       = "m4nt1s@fadeaway.dreamhost.com"
 ssh_port       = "22"
-document_root  = "~/tutorials.chymera.eu/"
+document_root  = "~/chymeric.eu/"
 rsync_delete   = true
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
