@@ -36,7 +36,7 @@ This should get you started wherever use case approaches fail.
 
 ## Change Fonts
 
-You can customize the fonts of your Octopress website via [Google Fonts](http://www.google.com/fonts#AboutPlace:about) - a framework which allows you to choose between hundreds of open source fonts, all with large character sets.
+You can customize the fonts of your Octopress website via [Google Fonts](http://www.google.com/fonts#AboutPlace:about) - a framework which allows you to choose between hundreds of free (mostly [SIL Open Font](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) or [Apache](http://www.apache.org/licenses/LICENSE-2.0.html) licensed) fonts, all with large character sets.
 The fonts are loaded in ```/source/_includes/custom/head.html``` and selected in ```/sass/base/_typography.scss```.
 
 You can add the following snippets to your theme to load and use - for instance - the **Lato** font from Google Fonts.
@@ -67,7 +67,7 @@ If you would also like to edit the console (code-block) colors provided by the d
 
 This is a bit tricky because it depends quite a bit on what elements you are trying to center.
 For center-alignment of text inside any element, you should add the ```text-align: center``` specification to the style sheet of the element containing your text.
-Additionally, you may want to justify your text (strangely enough most Octopress themes do not do this) - you can do it by adding ```text-align: justify``` to the CSS instead of ```text-align: center```.
+Additionally, you may want to justify your text (most Octopress themes do not do this) - do this by adding ```text-align: justify``` to the CSS instead of ```text-align: center```.
 
 {% codeblock Code snippet for centering the article title inside its containing element - at the start of "/sass/partials/_blog.scss" lang:scss %}
 article {
