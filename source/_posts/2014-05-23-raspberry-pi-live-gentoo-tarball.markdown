@@ -22,8 +22,8 @@ Though the archives total under 1 GB in size, we recommend you use at least an 8
 The structure is fairly straightforward, our tarball distribution consists of 2 archives, which can be downloaded from [this directory](http://chymera.eu/resources/gentoo-stage4/).
 The ```boot.tar.bz2``` archive contains files needed for the boot partition (namely the ```/boot``` directory), whereas the ```system.tar.bz2``` archive contains the files for the system partition (the rest of the root directory).
 
-* [Boot tarball direct download](http://chymera.eu/resources/gentoo-stage4/boot.tar.bz2).
-* [System tarball direct download](http://chymera.eu/resources/gentoo-stage4/system.tar.bz2).
+* [Boot tarball direct download](http://chymera.eu/resources/gentoo-stage4/boot.tar.bz2)
+* [System tarball direct download](http://chymera.eu/resources/gentoo-stage4/system.tar.bz2)
 
 ##Partitioning Your Drive
 
