@@ -22,7 +22,7 @@ And what better place to start your voyage into both academia and the FOS world 
 To aid in your comprehension of the following instructions we would like to point you to the following Master's thesis: **[“Neuronal Correlates of Occulometric Parameters in Face Recognition”](https://github.com/TheChymera/masterarbeit)**.
 This thesis is written and programmed in accordance with many FOS concepts; and we will be discussing excerpts from it to showcase individual features of FOS.
 
-Those of you already accustomed to [Git](https://en.wikipedia.org/wiki/Git_(software)) and [LaTeX](https://en.wikipedia.org/wiki/Latex) are also very welcome to just fork the said GitHub thesis repository and prune the code so that it can compile locally on your machine.
+Those of you already accustomed to [Git](https://en.wikipedia.org/wiki/Git_(software) and [LaTeX](https://en.wikipedia.org/wiki/Latex) are also very welcome to just fork the said GitHub thesis repository and prune the code so that it can compile locally on your machine.
 We're happy to guide you along, but hacking is a great way to learn too!
 
 ## Requirements
