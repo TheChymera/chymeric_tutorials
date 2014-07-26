@@ -103,16 +103,16 @@ The calculations are done preferentially based on the general formulas for the r
 
 ### General Formulae 
 
-For $ a \in \mathbb{N}$ and $b=1$:
+For $ a \in \mathbb{N}$ and $d=1$:
 
 $$
-\Pr(V|(a,d)) = \sum_{n=1}^{s} \frac{s^a-n^a}{s^{(a+1)}}
+\Pr(V|(a,d)) = \sum_{n=1}^{s} \frac{s^a-n^a}{s^{(a+d)}}
 $$
 
-For $a=1$ and $b=2$:
+For $a=1$ and $d=2$:
 
 $$
-\Pr(V|(a,d)) = \frac{1}{6^2}\sum_{n=1}^6 \left( (n-1)\frac{6-n}{6} + \sum_{m=n}^6 \frac{6-m}{6} \right)
+\Pr(V|(a,d)) = \frac{1}{s^d}\sum_{n=1}^s \left( (n-1)\frac{s-n}{s} + \sum_{m=n}^s \frac{s-m}{s} \right)
 $$
 
 ###Exhaustive Lookup
