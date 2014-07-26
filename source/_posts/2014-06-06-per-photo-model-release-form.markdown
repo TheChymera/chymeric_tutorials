@@ -4,7 +4,7 @@ title: "per-photo model release form"
 date: 2014-06-06 07:30:38 +0200
 author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
 comments: true
-categories: [photography, model photography, legal, meta]
+categories: [photography, document outline, model photography, legal, meta]
 published: true
 ---
 
