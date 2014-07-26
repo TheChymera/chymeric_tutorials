@@ -97,7 +97,7 @@ While we are still looking out for a formulaic solution, we currently solve thes
 
 ## Script
 
-Based on the above we have written [a Python script (named **Risky**)](https://github.com/TheChymera/Risky) that can be used to calculate the voctory, tie, and defeat odds given $a$ attackers, $d$ defenders, and $s$ sides of the dice.
+Based on the above we have written [a Python script (named **Risky**)](https://github.com/TheChymera/Risky) that can be used to calculate the victory, tie, and defeat odds given $a$ attackers, $d$ defenders, and $s$ sides of the dice.
 For a more exghaustive documentation of how to *use* the script from the command line please consult [its README document](https://github.com/TheChymera/Risky/blob/master/README.md).
 The calculations are done preferentially based on the general formulas for the respective aforementioned cases:
 
