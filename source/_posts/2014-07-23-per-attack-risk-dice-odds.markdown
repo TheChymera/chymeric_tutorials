@@ -13,12 +13,12 @@ One player may conquer the territories of another by eliminating all of the othe
 Units can be eliminated with the throwing of the dice, and a unit is lost for every instance where the opposing player has a higher score on one cast die.
 The throwing of the die is governed by the following rules:
 
-* Defenders throw up to 2 dice, they have $\geq 2$ units on the attacked territory.
-* Attackers throw up to 3 dice, if they have $\geq 3+1$ units on the attacking territory.
+* The defender rolls a maximum of 2 dice (one per unit - contingent on the unit number on the attacked territory).
+* The attacker rolls a maximum of 3 dice (one per unit - excluding the last unit and contingent on the unit number on the attacked territory).
 * Only the top dice are considered if a player throws more dice than his opponent.
 * Dice are paired with each other in an ordinal fashion.
 
-There are already texts providing more wide-ranging whole-battle predictions (as for instance [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)), and closed-source [battle simulators](http://riskodds.com/).
+There are already texts providing more wide-ranging whole-battle predictions (as for instance [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)), and closed-source (and in this particular case inaccurate) [battle simulators](http://riskodds.com/).
 Here we try to offer a transparent formulaic reference and odds table for all single-attack scenarios. 
 
 <!-- more -->
@@ -41,7 +41,7 @@ Here calculations become easier since there is no possibility of a tie:
 $$
 \Pr(T|(a,d)) = 0
 $$
-Further we sum the probabilities of the attacker winning contingent on the 6 possible and equally probable defender die outcomes:
+Further we sum the probabilities of the attacker winning, contingent on the 6 possible and equally probable defender die outcomes:
 $$
 \Pr(V|(a,d)) = \frac{1}{6}\sum_{n=1}^6 \frac{6-n}{6} = 0.41(6)
 $$
@@ -78,7 +78,7 @@ $$
 
 ### (2,1)
 
-Here we take one dice of the defender (of value $n$) as the minimum a requirement for a victorious attacker and adjust the probability for the cases where a second die (value $m$) receives a higher value.
+Here we take one die result of the defender (of value $n$) as the minimum a requirement for a victorious attacker and adjust the probability for the cases where a second die (value $m$) scores higher.
 Again, there can be no tie.
 
 $$
@@ -98,8 +98,8 @@ While we are still looking out for a formulaic solution, we currently solve thes
 ## Script
 
 Based on the above we have written [a Python script (named **Risky**)](https://github.com/TheChymera/Risky) that can be used to calculate the victory, tie, and defeat odds given $a$ attackers, $d$ defenders, and $s$ sides of the dice.
-For a more exghaustive documentation of how to *use* the script from the command line please consult [its README document](https://github.com/TheChymera/Risky/blob/master/README.md).
-The calculations are done preferentially based on the general formulas for the respective aforementioned cases:
+For a more exhaustive documentation of how to *use* the script from the command line please consult [its README document](https://github.com/TheChymera/Risky/blob/master/README.md).
+The calculations are done preferentially based on the general formulae for the aforementioned cases:
 
 ### General Formulae 
 
