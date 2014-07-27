@@ -122,7 +122,7 @@ One should note that this method can also be used as a validation tool for formu
 
 ##Odds Table
 
-For ease of overview we have compiled a table with all the odds (victory, tie. defeat) of a single attack in the common Risk set-up (6-sided dice and a cap of 3 attackers and 2 defenders). 
+For ease of overview we have compiled a table with all the odds (victory, tie, defeat) of a single attack in the common Risk set-up (6-sided dice and a cap of 3 attackers and 2 defenders). 
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border:none;margin:0px auto;}
