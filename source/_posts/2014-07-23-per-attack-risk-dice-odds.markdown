@@ -14,7 +14,7 @@ Units can be eliminated with the throwing of the dice, and a unit is lost for ev
 The throwing of the die is governed by the following rules:
 
 * The defender rolls a maximum of 2 dice (one per unit - contingent on the unit number on the attacked territory).
-* The attacker rolls a maximum of 3 dice (one per unit - excluding the last unit and contingent on the unit number on the attacked territory).
+* The attacker rolls a maximum of 3 dice (one per unit - excluding the last unit and contingent on the unit number on the attacking territory).
 * Only the top dice are considered if a player throws more dice than his opponent.
 * Dice are paired with each other in an ordinal fashion.
 
