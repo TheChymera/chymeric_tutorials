@@ -200,7 +200,7 @@ For ease of overview we have compiled a table with all the odds (victory, tie, d
 
 
 **V** stands for victory odds, **T** for tie odds, **D** for defeat odds, **a** for attacking units, and **d** for defending units.
-**A** stands for attrition and represents the number of units you can expect to lose for one unit lost by the defender.
+**A** stands for attrition and represents the number of units you can expect to lose for one unit lost by the defender - this value is given by $\frac{D+T}{V+T}$.
 We use **A** as an indicator of attack configuration desirability from the point of view of the attacker (though attack desirability is also contingent on strategical context, which is not accounted for here).
 Undesirable attack configurations are highlighted in pink.
 
