@@ -117,7 +117,7 @@ $$
 
 ###Exhaustive Lookup
 
-In case no formula is defined for the specified number of attackers and defenders, the script defaults to a subroutine which populates an array with all the possible dice outcome combinations and looks up combinations meeting the respective (victory, defeat, and tie) criteria.
+In case no formula is defined for the specified number of attackers and defenders, the script defaults to a subroutine which populates an array with all the possible dice outcome combinations and looks up all combinations meeting the respective (victory, defeat, and tie) criteria.
 One should note that this method can also be used as a validation tool for formulaic calculations, but is significantly slower. 
 
 ##Odds Table
