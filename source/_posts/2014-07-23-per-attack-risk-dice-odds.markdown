@@ -78,7 +78,7 @@ $$
 
 ### (2,1)
 
-Here we take one die result of the defender (of value $n$) as the minimum a requirement for a victorious attacker and adjust the probability for the cases where a second die (value $m$) scores higher.
+Here we take one die result of the defender (of value $n$) as the minimum requirement for attacker victory and adjust the probability for the cases where the second defender die (value $m$) scores higher.
 Again, there can be no tie.
 
 $$
