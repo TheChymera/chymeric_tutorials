@@ -2,7 +2,8 @@
 layout: post
 title: "Write Octopress Themes"
 date: 2013-12-30 06:30
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [Octopress, visual design, coding]
 published: true

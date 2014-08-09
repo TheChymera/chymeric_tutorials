@@ -2,7 +2,8 @@
 layout: post
 title: "Portage Cheat Sheet"
 date: 2014-02-06 23:27:48 +0200
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [linux, gentoo, portage, coding]
 published: true

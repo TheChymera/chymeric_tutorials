@@ -2,7 +2,8 @@
 layout: post
 title: "Btsync with Systemd (on Gentoo)"
 date: 2013-10-16 22:30
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [Gentoo, systemd, ebuild, coding]
 ---

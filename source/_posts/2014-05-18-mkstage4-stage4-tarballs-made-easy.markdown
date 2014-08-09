@@ -2,7 +2,8 @@
 layout: post
 title: "mkstage4 - Stage 4 Tarballs Made Easy"
 date: 2014-05-18 05:53:23 +0200
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [FOSS, Gentoo, Raspberry Pi, coding, ebuild]
 published: true

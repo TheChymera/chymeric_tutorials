@@ -2,7 +2,8 @@
 layout: post
 title: "Miscellaneous Cheat Sheet"
 date: 2014-02-03 21:20:58 +0100
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [linux, coding]
 published: true

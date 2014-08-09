@@ -2,7 +2,8 @@
 layout: post
 title: "per-attack risk dice odds"
 date: 2014-07-23 02:22:35 +0200
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [statistics, gameplay, strategy]
 published: true

@@ -2,7 +2,8 @@
 layout: post
 title: "Free and Open Science for Your Thesis"
 date: 2014-02-24 18:14
-author: <a rel="author" href="https://plus.google.com/117525803180879614771/about">Horea Christian</a>
+author: Horea Christian
+gooleplus_user: 117525803180879614771
 comments: true
 categories: [FOSS, science, FOS, LaTeX, PythonTeX, dissertation, open science]
 published: true
