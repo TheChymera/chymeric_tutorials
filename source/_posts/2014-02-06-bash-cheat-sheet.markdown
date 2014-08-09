@@ -3,7 +3,7 @@ layout: post
 title: "bash cheat sheet"
 date: 2014-02-06 23:35:02 +0200
 author: Horea Christian
-gooleplus_user: 117525803180879614771
+googleplus_user: 117525803180879614771
 comments: true
 categories: [Linux, Gentoo, bash, coding]
 published: true

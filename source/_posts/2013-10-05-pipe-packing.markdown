@@ -3,7 +3,7 @@ layout: post
 title: "How To Pack a Pipe"
 date: 2013-10-05 07:55
 author: Horea Christian
-gooleplus_user: 117525803180879614771
+googleplus_user: 117525803180879614771
 comments: true
 categories: [pipes, smoking, tobacco]
 published: false
