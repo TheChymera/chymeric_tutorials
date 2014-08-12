@@ -6,7 +6,7 @@ This repository contains all files unique to the blog and their history dating b
 ##Cite Stable Versions
 
 Websites in general and blogs in particular are often unsuited for citation in texts striving to provide reliable sources.
-This is chiefly because content of a web-URL (to a blog post or wiki article) may be modified at any time without notice or ways to retrieve the previous version.
+This is chiefly because the content of a web-URL (to a blog post or wiki article) may be modified at any time without notice or ways to retrieve the previous version.
 The [Chymeric Tutorials Blog](http://chymeric.eu) provides a high degree of reliability as a citable source by backing up and versioning its entire content.
 
 While we recommend viewing our content through our website for the best reading experience;
@@ -88,7 +88,7 @@ From your blog directory (using the *whitespace* theme as an example):
 ###Octopress Update
 
 Please remember that this might be subject to some breakage if (when) upstream Octopress updates `Rakefile` or `_config.yml` syntax.
-If things don't work after the update check these files on upstream and use a merge tool (e.g. [meld](http://en.wikipedia.org/wiki/Meld_(software)) or manually replace all the lines not containing custom content.
+If things don't work after the update, check these two files in particular on upstream and use a merge tool (e.g. [meld](http://en.wikipedia.org/wiki/Meld_(software) ) or manually replace all the lines not containing custom content.
 
     $ git remote add octopress https://github.com/imathis/octopress.git #you only need to do this the first time
     $ git fetch --all
