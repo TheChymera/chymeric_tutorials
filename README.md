@@ -29,7 +29,7 @@ To obtain a publishing-ready identical copy of the [Chymeric Tutorials Blog](htt
 Clone Octopress:
 
     $ git clone git://github.com/imathis/octopress.git photo
-    $ cd photo
+    $ cd tutorials
 
 Install dependencies:
 
@@ -38,11 +38,11 @@ Install dependencies:
     
 ###Get our Theme of Choice
 
-Clone Whitespace:
+Clone (for example) *whitespace*:
 
     $ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
 
-Install Whitespace:
+Install *whitespace*:
 
     $ bundle exec rake install['whitespace']
     
@@ -71,4 +71,35 @@ If you would like to host a mirror or fork of our website somewhere else, you wo
 
 of your ```Rakefile``` file.
 
-Other than that you're good to go!
+Other than that, you're good to go!
+
+##Update Your Website Dependencies
+
+###Theme Updates
+
+From your blog directory (using the *whitespace* theme as an example):
+
+    $ git -C .themes/whiteapace pull origin master
+    $ rake install['whitespace']
+    $ git fetch --all
+    $ git reset --hard origin/master
+    $ rake generate
+    
+###Octopress Update
+
+Please remember that this might be subject to some breakage if (when) upstream Octopress updates `Rakefile` or `_config.yml` syntax.
+If things don't work after the update check these files on upstream and use a merge tool (e.g. [meld](http://en.wikipedia.org/wiki/Meld_(software)) or manually replace all the lines not containing custom content.
+
+    $ git remote add octopress https://github.com/imathis/octopress.git #you only need to do this the first time
+    $ git fetch --all
+    $ git reset --hard octopress/master
+    $ bundle install
+    $ rake update_source
+    $ rake update_style
+    $ git -C .themes/whiteapace pull origin master
+    $ rake install['whitespace']
+    $ git rm --cached -r .
+    $ git fetch --all
+    $ git reset --hard origin/master
+    $ rake generate
+    
