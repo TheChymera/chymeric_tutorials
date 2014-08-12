@@ -88,7 +88,7 @@ From your blog directory (using the *whitespace* theme as an example):
 ###Octopress Update
 
 Please remember that this might be subject to some breakage if (when) upstream Octopress updates `Rakefile` or `_config.yml` syntax.
-If things don't work after the update, check these two files in particular on upstream and use a merge tool (e.g. [meld](http://en.wikipedia.org/wiki/Meld_(software) ) or manually replace all the lines not containing custom content.
+If things don't work after the update, check these two files in particular on upstream and use a merge tool (e.g. [meld](http://en.wikipedia.org/wiki/Meld_(software))) or manually replace all the lines not containing custom content.
 
     $ git remote add octopress https://github.com/imathis/octopress.git #you only need to do this the first time
     $ git fetch --all
