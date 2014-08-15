@@ -59,7 +59,7 @@ This seldom happens but it does happen every once in a while.
 You usually notice something went awry when the above step (`$ rake generate`) fails.
 
 The files usually to blame for breakage are `Rakefile` and `_config.yml`.
-You can view a comparison between our version and the latest Octopress dev with the following code (ideally you should replace all lines with upstream versions save for those containing customizations such as blog name, author, etc.):
+You can view a comparison between our version and the latest Octopress development master with the following code (ideally you should replace all lines in the comparisons with the upstream versions - save for those containing customizations such as blog name, author, etc.):
 
 ```
 git remote add octopress https://github.com/imathis/octopress.git
