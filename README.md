@@ -1,13 +1,13 @@
 #Chymeric Tutorials Repository
 
-Git repository for the Chymera Network photography blog.
+Git repository for the [Chymeric Tutorials blog](http://chymeric.eu).
 This repository contains all files unique to the blog and their history dating back to the orginal publication date.
 
 ##Cite Stable Versions
 
 Websites in general and blogs in particular are often unsuited for citation in texts striving to provide reliable sources.
 This is chiefly because the content of a web-URL (to a blog post or wiki article) may be modified at any time without notice or ways to retrieve the previous version.
-The [Chymeric Tutorials Blog](http://chymeric.eu) provides a high degree of reliability as a citable source by backing up and versioning its entire content.
+The Chymeric Tutorials Blog provides a high degree of reliability as a citable source by backing up and versioning its entire content.
 
 While we recommend viewing our content through our website for the best reading experience;
 we encourage citation of fixed versions via links to our repository hosted on the reliable and stable GitHub service.
