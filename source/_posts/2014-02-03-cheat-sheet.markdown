@@ -13,6 +13,20 @@ This is a collection of workflows, commands, or bash scripts solving a series of
 These instructions use linux commands and directory structures. 
 
 <!-- more -->
+
+
+## Apply Git Patch Directly from Remote Server
+Many git hosts offer you automatic summaries of pull requests in the form of diffs or patches (simply append `.diff` or `patch` to your commit link).
+
+To apply such patches directly (without having to manually download the files) you can run the following command:
+
+```
+curl https://your.host/path/to/commit/commit_identifier.patch | git apply --ignore-space-change --ignore-whitespace
+```
+
+The `--ignore-space-change` and `--ignore-whitespace` are not needed, but they save you the pain of patches failing due to unmatching white spaces.
+
+
 ## Copy Remote Folders
 There are a number of commands which you can use to transfer files and folders remotely via the command line interface (CLI).
 On of them is ```scp``` (which stands for secure copy) and uses the SSH protocol.
@@ -20,6 +34,9 @@ On of them is ```scp``` (which stands for secure copy) and uses the SSH protocol
 ```bash
 scp -r user@your.server.example.com:/path/to/your/files /your/desired/destination
 ```
+
+Keep in mind that `/path/to/your/files` is an absolute path.
+If you do not have root access on your server, use a `home/directory/relative/path` (without the initial slash).  
 
 ## List Files Versioned with Git
 To get a list of all the files in your git repository (excluding untracked files from your repo directory), run the following:
@@ -33,7 +50,7 @@ There are a number of ways to do this.
 One would be via the [GIMP](https://en.wikipedia.org/wiki/GIMP) [script-fu](http://docs.gimp.org/2.8/en/gimp-concepts-script-fu.html), which is awfully complicated to use (as an example of how you would batch rotate files with script-fu, you can see [this thread on StackOverflow](http://stackoverflow.com/questions/23554843/batch-rotate-files-with-gimp)).
 
 If your image happens to be in the JPEG file format, however, you can easily rotate it with a library function called ```jpegtran```.
-This function ships with the ```libjpeg-turbo``` package, which you already have installed if your system is capable of viewing JPEG format files.
+This function ships with the `libjpeg-turbo` package, which you already have installed if your system is capable of viewing JPEG format files.
 To use this function simply run:
 
 {% codeblock replace .JPG with your respective extension formatting lang:bash %}
@@ -94,6 +111,7 @@ The ```grep``` command with the ```-r``` option lets you find the occurrences of
 grep -r "yourstring" folder1/ folder2/
 ```
 
+
 ## Nested Markdown/reST Syntax
 Use the following too get a bold (or italic, etc.) link via markdown:
 
@@ -101,6 +119,7 @@ Use the following too get a bold (or italic, etc.) link via markdown:
 **[link name](http://address.you.want.to.point.to)**
 ```
 In reStructured Text (reST) this feature is on the *to do* list, but not yet available. 
+
 
 ## OpenRC: See and edit runlevels
 This assumes you are using [OpenRC](http://en.wikipedia.org/wiki/OpenRC) and will not work on systems set up with [systemd](http://en.wikipedia.org/wiki/Systemd). 
