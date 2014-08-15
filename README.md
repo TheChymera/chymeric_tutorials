@@ -26,42 +26,51 @@ To obtain a publishing-ready identical copy of the [Chymeric Tutorials Blog](htt
 
 ###Get Octopress
 
-Clone Octopress:
+As per the [upstream instructions](http://octopress.org/docs/setup/):
 
-    $ git clone git://github.com/imathis/octopress.git photo
+    $ git clone https://github.com/imathis/octopress.git tutorials
     $ cd tutorials
-
-Install dependencies:
-
     $ gem install bundler
     $ bundle install
     
 ###Get our Theme of Choice
 
-Clone (for example) *whitespace*:
+We use the [whitespace theme](https://github.com/lucaslew/whitespace) for our website, and this repository also contains visual customizations matching that theme.
 
-    $ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
-
-Install *whitespace*:
-
-    $ bundle exec rake install['whitespace']
+    $ git clone https://github.com/lucaslew/whitespace.git .themes/whitespace
+    $ rake install['whitespace']
     
-###Remove the Octopress Git Data
+###Replace Octopress Git Data with Chymeric Tutorials
 
     $ rm -rf .git
-    
-###Create the Chymeric Tutorials Git Repository
-
     $ git init
     $ git remote add origin https://github.com/TheChymera/chymeric_tutorials.git
     $ git fetch --all
     $ git reset --hard origin/master
-    
+  
 And generate the [Chymeric Tutorials Blog](http://chymeric.eu):
 
-    $ bundle exec rake generate
+    $ rake generate
 
-###Push Content
+###Compatibility Issues
+
+Sometimes the Octopress upstream code (the current standard Octopress instructions are to pull from the development branch) might have been updated, and we might not yet have gotten a chance to update our content accordingly.
+This seldom happens but it does happen every once in a while.
+You usually notice something went awry when the above step (`$ rake generate`) fails.
+
+The files usually to blame for breakage are `Rakefile` and `_config.yml`.
+You can view a comparison between our version and the latest Octopress dev with the following code (ideally you should replace all lines with upstream versions save for those containing customizations such as blog name, author, etc.):
+
+```
+git remote add octopress https://github.com/imathis/octopress.git
+git fetch --all
+git difftool master octopress/master Rakefile
+git difftool master octopress/master _config.yml
+```
+
+If that won't work, you will have to find out which of the many other files pointed out by `git difftool master octopress/master` are responsible.
+
+##Push Content
 If you would like to contribute to our website you would have to contact us for ssh login data.
 If you would like to host a mirror or fork of our website somewhere else, you would have to edit the following bits
 
