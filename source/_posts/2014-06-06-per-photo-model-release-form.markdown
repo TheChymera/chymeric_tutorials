@@ -35,7 +35,7 @@ For per-photo model release we include a form structure with which you may speci
 This works via [MD5 checksums](http://en.wikipedia.org/wiki/Md5), sequences of 32 hexadecimal digits which uniquely identify your photos.
 While explaining [checksum](http://en.wikipedia.org/wiki/Checksum) functions exceeds the scope of this article, the gist of the concept is that two photos with a difference of even only one pixel will still have different MD5 checksums.
 
-On most Unix-like operating systems (OS X, Linux, BSD, etc.) checksums can easily be computed in the command line via by entering: 
+On most Unix-like operating systems (OS X, Linux, BSD, etc.) checksums can easily be computed in the command line via: 
 
 ```bash
 md5sum /path/to/your/original/photo
