@@ -11,7 +11,7 @@ published: true
 
 In [Risk](https://en.wikipedia.org/wiki/Risk_(game))-like games, players face off against each other on maps divided into territories.
 One player may conquer the territories of another by eliminating all of the other's units from a said territory.
-Units can be eliminated with the throwing of the dice, and a unit is lost for every instance where the opposing player has a higher score on one cast die.
+Units can be eliminated with the throwing of the dice, and a unit is lost for every instance where the attacking player has a higher score on one cast die.
 The throwing of the die is governed by the following rules:
 
 * The defender rolls a maximum of 2 dice (one per unit - contingent on the unit number on the attacked territory).
@@ -19,7 +19,7 @@ The throwing of the die is governed by the following rules:
 * Only the top dice are considered if a player throws more dice than his opponent.
 * Dice are paired with each other in an ordinal fashion.
 
-There are already texts providing more wide-ranging whole-battle predictions (as for instance [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)), and closed-source (and in this particular case inaccurate) [battle simulators](http://riskodds.com/).
+There are already texts providing more wide-ranging whole-battle predictions (as for instance [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)), and closed-source (and in this particular case, also inaccurate) [battle simulators](http://riskodds.com/).
 Here we try to offer a transparent formulaic reference and odds table for all single-attack scenarios. 
 
 <!-- more -->
@@ -43,10 +43,13 @@ $$
 \Pr(T|(a,d)) = 0
 $$
 Further we sum the probabilities of the attacker winning, contingent on the 6 possible and equally probable defender die outcomes:
+
 $$
 \Pr(V|(a,d)) = \frac{1}{6}\sum_{n=1}^6 \frac{6-n}{6} = 0.41(6)
 $$
+
 Thus:
+
 $$
 \Pr(D|(a,d)) = 1 - \Pr(T|(a,d)) - \Pr(V|(a,d)) = 0.58(3)
 $$
@@ -60,6 +63,7 @@ $$
 $$
 
 Thus:
+
 $$
 \Pr(D|(a,d)) = 1 - \Pr(T|(a,d)) - \Pr(V|(a,d)) = 0.421(296)
 $$
@@ -73,6 +77,7 @@ $$
 $$
 
 Thus:
+
 $$
 \Pr(D|(a,d)) = 1 - \Pr(T|(a,d)) - \Pr(V|(a,d)) = 0.3402(7)
 $$
@@ -87,6 +92,7 @@ $$
 $$  
 
 Thus:
+
 $$
 \Pr(D|(a,d)) = 1 - \Pr(T|(a,d)) - \Pr(V|(a,d)) = 0.7453(703)
 $$
