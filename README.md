@@ -105,10 +105,9 @@ If things don't work after the update, check these two files in particular on up
     $ bundle install
     $ rake update_source
     $ rake update_style
-    $ git -C .themes/whiteapace pull origin master
+    $ git -C .themes/whitespace pull origin master
     $ rake install['whitespace']
     $ git rm --cached -r .
-    $ git fetch --all
     $ git reset --hard origin/master
     $ rake generate
     
