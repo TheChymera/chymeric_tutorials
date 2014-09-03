@@ -103,6 +103,7 @@ If things don't work after the update, check these two files in particular on up
     $ git fetch --all
     $ git reset --hard octopress/master
     $ bundle install
+    $ bundle update
     $ rake update_source
     $ rake update_style
     $ git -C .themes/whitespace pull origin master
