@@ -16,27 +16,29 @@ Our advanced publishing approach provides a series of features to the average re
 
 ###Evergreen Content
 
-We are not *really* a blog - and much less a news site.
-We value the quality of our content and as such keep old pages updated for as long as this is feasible given their respective topics.
+Chymeric Tutorials is much less a blog than it is a web resource.
+We value the quality and usefulness of our content, and as such keep old pages updated for as long as this is feasible given their respective topics.
 Landed on a page authored over one year ago?
 Great! You can be sure it also covers vital developments that may have happened since then.
 
 ###Version Control
 
 As our pages are updated over time, we also provide curious readers with the opportunity to see a history of all our articles.
-Our history is currently published on [GitHub]() at [this URL]().
-Also, all our pages contain a link to their respective GitHub files for ease of reference.
+Our history is currently published on [GitHub](http://en.m.wikipedia.org/wiki/GitHub) at [this URL](https://github.com/TheChymera/chymeric_tutorials).
+Also, for ease of reference, all our pages contain a link to the GitHub location of their respective files.
 Consequently, editors interested in referencing our content have both the option of linking to our website (which always shows the latest content) or to a specific revision on GitHub - which will ensure that the content of their reference link remains unchanged.
 *Neat - huh?*
 
 ###Robustness
 
 A pleasant consequence of our versioning efforts is that our content remains online regardless of any potential crashes of our own (very sturdy!) servers.
-Even if our website is down - if you really need our content ASAP - you can find it on our [GitHub repository]().
-Further, we use [Git]() beyond the scope of just GitHub.
+Even if our website is down - and you need our content ASAP - you can find it on our [GitHub repository](https://github.com/TheChymera/chymeric_tutorials).
+Further, we use [Git](http://en.m.wikipedia.org/wiki/Git_(software)) beyond the scope of just GitHub.
 Our content is thus backed up on a multitude of our machines; and in fact you can easily copy it yourself, as well!
 
 ###Reproducibility
+
+
 
 ## Comment!
 Commenting is simple, fast and fun!
