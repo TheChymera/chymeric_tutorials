@@ -1,119 +1,79 @@
 ---
 layout: page
-title: "Interact!"
-date: 2014-09-11 06:09
+title: "about us"
+date: 2014-09-13 07:47
 author: Horea Christian
 comments: true
 sharing: true
 footer: true
 ---
 
-Chymerric Tutorials is a robust, reproducible, and transparent collection of documentation and how-to articles [on a large variety of topics](http://chymeric.eu/blog/categories/).
+
+Chymeric Tutorials hosts a reproducible, transparently organised, and regularly updated resource for how-to articles and documentation covering a wide variety of topics.
+Please view our [**tag cloud**](http://chymeric.eu/blog/categories/) to see what topics we write about, and to browse our content by your areas of interest.
 
 ##Features for Readers
 
-Our advanced publishing approach provides a series of features to the average reader, as well as to editors, bloggers, and archivists interested in our content.
+Our advanced publishing approach provides many exciting features for the average reader - as well as for editors, bloggers, and archivists interested in our content.
 
 ###Evergreen Content
 
-Chymeric Tutorials is much less a blog than it is a web resource.
-We value the quality and usefulness of our content, and as such keep old pages updated for as long as this is feasible given their respective topics.
-Landed on a page authored over one year ago?
-Great! You can be sure it also covers vital developments that may have happened since then.
+We value the quality and usefulness of our content, and as such keep all pages updated for as long as this is feasible given their respective topics.
+*Landed on a page authored over one year ago?*
+Great! You can be sure it also covers any significant developments that may have occurred in the mean time.
 
 ###Version Control
 
-As our pages are updated over time, we also provide curious readers with the opportunity to see a history of all our articles.
-Our history is currently published on [GitHub](http://en.m.wikipedia.org/wiki/GitHub) at [this URL](https://github.com/TheChymera/chymeric_tutorials).
-Also, for ease of reference, all our pages contain a link to the GitHub location of their respective files.
-Consequently, editors interested in referencing our content have both the option of linking to our website (which always shows the latest content) or to a specific revision on GitHub - which will ensure that the content of their reference link remains unchanged.
+As our pages get updated over time, we also provide the opportunity to browse our articles' histories:
+Our entire editing history is published on [GitHub](http://en.m.wikipedia.org/wiki/GitHub) at [this URL](https://github.com/TheChymera/chymeric_tutorials).
+For ease of reference, all our pages contain a link to the GitHub location of their respective files - the link is located at the bottom of the page and formatted as follows: 
+
+> ---
+> <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/about/index.markdown)!</sup>
+
+Thanks to our thorough content tracking, if you are interested in referencing our content you have both the option of linking to our website (which always shows the latest content) or to a specific revision on GitHub, which will ensure that the content of your reference link remains unchanged.
 *Neat - huh?*
 
 ###Robustness
 
-A pleasant consequence of our versioning efforts is that our content remains online regardless of any potential crashes of our own (very sturdy!) servers.
-Even if our website is down - and you need our content ASAP - you can find it on our [GitHub repository](https://github.com/TheChymera/chymeric_tutorials).
+A pleasant consequence of GitHub versioning is that our content also remains online regardless of any potential crashes of our servers.
+If our website is ever down - and you need our content ASAP - you can find it on our [GitHub repository](https://github.com/TheChymera/chymeric_tutorials).
 Further, we use [Git](http://en.m.wikipedia.org/wiki/Git_(software)) beyond the scope of just GitHub.
 Our content is thus backed up on a multitude of our machines; and in fact you can easily copy it yourself, as well!
 
 ###Reproducibility
 
+Our Website is built entirely on a default Octopress distribution - and we only version the files which are different from that (meaning content and some odd bits of chrome).
+As such it is very easy to just pull our repository content over an Octopress install and mirror our entire site.
+We have put together a very quick but comprehensive set of instructions for reproducing our website on our [repository README](https://github.com/TheChymera/chymeric_tutorials#reproduce-this-website).
 
 
-## Comment!
-Commenting is simple, fast and fun!
+##Features for Contributors 
 
-Bear in mind, though, that our pages are versioned and change over time.
-If you comment on any specific content please specify the revision which you are referring to.
-You can find the identifiers of all revisions (the SHA checksums) by clicking the link displayed at the bottom of every page
-- which commonly looks like this:
-
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/interact/index.markdown)!</sup>
-
-Once you are on the article's GitHub page you may continue by clicking on the **History** button in the top right.
-The topmost revision is the latest, and you can copy the identifier (SHA) by simply clicking the button which appears when you hover the entry.
+Chymeric Tutorials greatly values open collaboration and multi-authorship - and we have designed our website just so that *you* can best modify its content.
+If you are interested in contributing, we took great care to make this as easy as possible while still providing a maximum of transparency and adequate proof-of-authorship.
 
 
-## Fork!
-If you would like to directly and 100% constructively contribute to our website you may do so by *modifying its content*!
+### Fork and Write!
+Every article contains a link to its GitHub page at the very end. 
+You can follow any of these links to our [GitHub repository](https://github.com/TheChymera/chymeric_tutorials), which you can *fork*.
 
-Every article contains a link to its GitHub page at the very end. You can navigate to that link and *fork* the article (or our entire website) into your own Git repository.
-
-If that all just sounded like gibberish to you - don't fret! 
-It's actually quite simple.
-To get started you just need to [register on GitHub](https://github.com/).
-After you have an account the **Edit** buttons on the upper right of all our article pages will become active and you can start editing from a convenient and pretty point-and-click visual interface!
+GitHub provides a nice visual interface for forking (via a button in the upper right).
+To get started you just need to make sure you are already [registered on GitHub](https://github.com/).
+After you have an account and a fork of our content, the **Edit** buttons on the upper right of all our article pages will become active and you can start editing from a convenient and pretty point-and-click visual interface.
+Alternatively you can also clone your fork of our repository and edit it locally with your favourite Markdown editor.
 Don't forget to add yourself under the ```author:``` section after you have edited the file!
 
-Now, wasn't that easy?
-
-
-## Submit Pull Requests!
+### Submit Pull Requests!
 If you are satisfied with your work and would like to see it published on our blog (along with recognition of your authorship) you may use the convenient GitHub **Pull Request** button to ask us to publish your work.
-This will create a pull request page, where we can discuss how to best merge your file into ours.
+This will create a "pull request" page, where we can discuss how to best merge your file into ours.
 
-Also, before submitting a pull request please make sure you have formatted your work according to our writing standards.
+Also, before submitting a pull request please make sure you have formatted your work somewhat according to our writing standards.
 A brief rundown:
 
-* Octopress-flavored markdown syntax (as seen in any and all of our own posts)
+* Octopress-flavored kramdown syntax (as seen in any and all of our own posts)
 
-* Each sentence or “block of meaning” (think long statements in parentheses) on a separate line
-
-* Citations formatted as links, like in the example below:
-
-{% codeblock How to write citations in markdown: %}
-Your text contains a statement about [khat][giannini1986] and then some more things.
-
-After a while your text ends, and then you append the following reference, which will not be printed in the document - but only used to format the link and link-hover text display.
-
-[giannini1986]: https://www.ncbi.nlm.nih.gov/pubmed/3734955 "Giannini AJ, Burge H, Shaheen JM, Price WA (1986). “Khat: another drug of abuse?”. Journal of Psychoactive Drugs 18 (2): 155–8."
-{% endcodeblock %}
-The code above would look like:
-
----
-
-Your text contains a statement about [khat][giannini1986] and then some more things.
-
-After a while your text ends, and then you append the following reference, which will not be printed in the document - but only used to format the link and link-hover text display.
-
-[giannini1986]: https://www.ncbi.nlm.nih.gov/pubmed/3734955 "Giannini AJ, Burge H, Shaheen JM, Price WA (1986). “Khat: another drug of abuse?”. Journal of Psychoactive Drugs 18 (2): 155–8."
-
-
-## Cite!
-Well, this is not that interactive really, but our commitment to versioning is first and foremost in order to allow people to *cite* our articles.
-Providing references is indispensable for making verifiable claims in media, publications, or social networks;
-and sadly, most of the blogosphere cannot provide that.
-Posts may change without a notice, or disappear altogether - 
-and your citation? Puff!
- 
-We are different! 
-Via the **History** section of every GitHub article page - which we diligently link to at the end of every post - you can obtain a static link which will remain the same and online for as long as our repository exists.
-
-Is your citation so valuable that the immense trust - which I am sure you honor us with - *still* does not suffice?
-No problem!
-You can fork our repository on your machine or on your GitHub account.
-Now, even if we *wanted* to delete all of our hard work - we could not.
-You (and many others, we hope) would still have a copy.   
+* Each phrase or “block of meaning” on a separate line
 
 ---
 <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/about/index.markdown)!</sup>
