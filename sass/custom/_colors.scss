@@ -50,3 +50,4 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 //Title Colors
 $subtitle-color: adjust-color($link-color, $lightness: 10, $saturation: -29) !default;
 $title-color: adjust-color($subtitle-color, $lightness: 36, $saturation: -1) !default;
+$subheader-color: adjust-color($link-color, $lightness: 20, $saturation: -35) !default;
