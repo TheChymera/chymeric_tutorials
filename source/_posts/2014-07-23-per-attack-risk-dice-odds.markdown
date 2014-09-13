@@ -2,6 +2,7 @@
 layout: post
 title: "per-attack risk dice odds"
 date: 2014-07-23 02:22:35 +0200
+updated: 2014-09-03 05:54:00 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
 comments: true
@@ -38,11 +39,8 @@ Given a cap of 2 defenders and 3 attackers we can expect $2 \times 3$ attack sce
 
 ### (1,1)
 
-Here calculations become easier since there is no possibility of a tie:
-$$
-\Pr(T|(a,d)) = 0
-$$
-Further we sum the probabilities of the attacker winning, contingent on the 6 possible and equally probable defender die outcomes:
+Here calculations become easier since there is no possibility of a tie: $\Pr(T|(a,d)) = 0$.
+Further, we sum the probabilities of the attacker winning, contingent on the 6 possible and equally probable defender die outcomes:
 
 $$
 \Pr(V|(a,d)) = \frac{1}{6}\sum_{n=1}^6 \frac{6-n}{6} = 0.41(6)
