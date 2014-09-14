@@ -31,18 +31,18 @@ This script became unmaintained in 2009, but was later [re-edited](https://githu
 
 Here we present a new, maintained version of **mkstage4**, with broader functionality, and a more flexible command line interface.
 
-##Usage
+##Installation & Usage
 
-The script is hosted [on GitHub](https://github.com/TheChymera/mkstage4), and provides a basic usage guide on its [README page](https://github.com/TheChymera/mkstage4/blob/master/README.md).
-It can be called *as root* from the directory it is located in:
+The script is hosted [on GitHub](https://github.com/TheChymera/mkstage4), and provides a basic installation and usage guide on its [README page](https://github.com/TheChymera/mkstage4/blob/master/README.md).
+It can be installed system-wide (via [Portage](http://en.m.wikipedia.org/wiki/Portage_(software))) or called *as root* from the directory it is located in.
+Here we will assume you are running it from the parent directory, and thus use the `./mkstage4.sh` command.
+
+You can create a stage 4 tarball of the current system - by specifying the ```-s``` (sytem) flag - under the name ```archive_name.tar.bz2```, for instance:
 
 ```bash
-cd /your/mkstage4/directory
-chmod +x mkstage4.sh
 ./mkstage4.sh -s archive_name
 ```
 
-This creates a stage 4 tarball of the current system - this being specified by the ```-s``` (sytem) flag - under the name name ```archive_name.tar.bz2```.
 If you would like to use mkstage4 to create a tarball of an other mounted system you can point it to the respective mount point with the ```-t``` (target) flag:
 
 ```bash
