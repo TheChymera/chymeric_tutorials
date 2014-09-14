@@ -14,8 +14,8 @@
 //$footer-bg-front: image-url('noise.png');
 //$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11));
 
-/* To use the light Solarized highlighting theme uncomment the following line */
-$solarized: light;
+/* To use the dark Solarized highlighting theme uncomment the following line */
+//$solarized: light;
 
 /* If you want to tweak the Solarized colors you can do that here */
 //$base03:          #002b36; //darkest blue
@@ -24,8 +24,8 @@ $solarized: light;
 //$base00:          #657b83; //dark gray
 //$base0:           #00ff00; //medium gray
 //$base1:           #ff0000; //medium light gray
-$base2:           #ddd5da; //pink
-$base3:           #f3f1f3; //white
+//$base2:           #fafafa; //pink
+//$base3:           #f6f6f6; //white
 //$solar-yellow:    #b58900;
 //$solar-orange:    #cb4b16;
 //$solar-red:       #dc322f;
