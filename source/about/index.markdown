@@ -9,7 +9,7 @@ footer: true
 ---
 
 
-Chymeric Tutorials hosts a reproducible, transparently organised, and regularly updated resource for how-to articles and documentation covering a wide variety of topics.
+Chymeric Tutorials hosts a reproducible, transparently organised, and regularly updated resource for how-to, research, and documentation articles covering a wide variety of topics.
 Please view our [**tag cloud**](http://chymeric.eu/blog/categories/) to see what topics we write about, and browse our content by your areas of interest.
 
 ##Features for Readers
