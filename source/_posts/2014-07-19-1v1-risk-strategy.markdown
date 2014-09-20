@@ -43,7 +43,7 @@ Based on this information, you should:
 Unless otherwise strategically mandated, reinforcing territories that contain only 1 or 2 troops is a poor move - as you will thus deprive yourself of using 1 or even 2 of your troops in an optimal attack configuration.
 
 ####PR2 - Split troops between territories
-This might indeed sound counterintuitive, but based on data from the aforementioned compound odds table, two **4v3** attacks are more advantageous than one **5v3** attack (refer to [this page](http://chymeric.eu/blog/2014/07/23/per-attack-risk-dice-odds/) for more information on the notation):
+This might indeed sound counterintuitive, but based on data from the aforementioned compound odds table, two attack scenarios starting with **4v3** each are more advantageous than one attack scenario starting with **5v3** (refer to [this page](http://chymeric.eu/blog/2014/07/23/per-attack-risk-dice-odds/) for more information on the notation):
 
 $$
 \Pr(V\vert(4,3),(4,3)) \approx 0.642+0.642(1-0.642) \approx 0.872
@@ -53,7 +53,7 @@ $$
 \Pr(V\vert(5,3)) \approx 0.769
 $$
 
-The added benefit of splitting troops instead of placing them on the same territory decreases as the number of placeable troops goes up.
+Also, keep in mind that the added benefit of splitting troops instead of placing them on the same territory decreases as the number of placeable troops goes up.
 
 ####PR3 - Reinforce regions connected to multiple enemy territories
 Since you will want to attack in all cases where you have 3 available attackers (see next section), place your troops in a way that allows you to make optimal use of favorable outcomes -
@@ -63,7 +63,7 @@ Probability tells us that you can and will get "lucky" - it is important to put 
 ##Attack
 
 The [single-battle odds table](http://chymeric.eu/blog/2014/07/23/per-attack-risk-dice-odds/) shows that it is always advantageous to attack in **3v1**, **2v1**, and **3v2** configurations. 
-It follows that:
+It follows that you should:
 
 ####AR1 - Attack if you have 4 or more troops on a territory
 Even if the adversary has more troops on a territory, it is still beneficial to attack until your troop count in the adjacent territory is close to 3.
