@@ -55,9 +55,9 @@ $ git clone https://github.com/TheChymera/masterarbeit.git
 
 ### LaTeX 
 LaTeX helps you create reproducible and high-quality typeset documents.
-It is the standard markup language for most high-profile typographies and a great number of scientific journals.
+It is the standard markup language for most high-profile publishers and a great number of scientific journals.
  
-One drawback of LaTeX in the context of FOS is that it is geared towards static, for-print output formats (as for instance ```.pdf```) and integrates less well with web-based publishing than Markdown or IPython would.
+One drawback of LaTeX in the context of FOS is that it is geared towards static, for-print output formats (as for instance `.pdf`) and integrates less well with web-based publishing than Markdown or IPython would.
 However, as typography is of greater concern to your thesis than portability, we would still recommend LaTeX over other alternatives here.
 
 ## Live Data Analysis 
@@ -71,10 +71,10 @@ All the new data and processing will pipe through your document without any expe
 PythonTeX is a library that tries to provide integration between programing and markup languages.
 Its strongest suit (as the name suggests) is Python integration in LaTeX.
 
-Pythontex can be used to produce figures or text (including tables) from python functions and place that into your ```.tex``` document.
-A powerful feature of PythonTeX figure piping is that it can use the ```.pgf``` graphics format which natively draws the figure in the LaTeX environment - meaning that text elements in your figure can  be selected and can contain clickable links in the final document.
+Pythontex can be used to produce figures or text (including tables) from python functions and place that into your `.tex` document.
+A powerful feature of PythonTeX figure piping is that it can use the `.pgf` graphics format which natively draws the figure in the LaTeX environment - meaning that text elements in your figure can  be selected and can contain clickable links in the final document.
 
-To call functions from the ```.tex``` source of your document, you need to place them in an appropriate environment (the following excerpt is sourced from [the dedicated environment listing file](https://github.com/TheChymera/masterarbeit/blob/master/pythontex/pycode.tex) of our example thesis):
+To call functions from the `.tex` source of your document, you need to place them in an appropriate environment (the following excerpt is sourced from [the dedicated environment listing file](https://github.com/TheChymera/masterarbeit/blob/master/pythontex/pycode.tex) of our example thesis):
 
 ```python
 \begin{pycode}[pe_ss1]
@@ -88,11 +88,11 @@ fig_pe_ss1 = latex_figure(save_fig(fig_width=6.64, fig_height=3), caption='React
 \end{pycode}
 ```
 
-As you can see, there are a few functions called here which are not defined in the snippet - they are inherited from the ```{pycode}``` environment.
+As you can see, there are a few functions called here which are not defined in the snippet - they are inherited from the `{pycode}` environment.
 This is done via [an other dedicated file](https://github.com/TheChymera/masterarbeit/blob/master/pythontex/functions.tex) which is very handy for writing down functions and imports which you will need in all or most of your python snippets.
 Upstream has nicely elaborated on this topic [here](https://github.com/gpoore/pythontex/wiki/matplotlib).
 
-Finally, to actually get some output from the above you have to call the snippet via its ID (for the aforementioned example ```[pe_ss1]```).
+Finally, to actually get some output from the above you have to call the snippet via its ID (for the aforementioned example `[pe_ss1]`).
 
 ```latex
 \py[pe_ss1]{fig_pe_ss1}
@@ -100,7 +100,7 @@ Finally, to actually get some output from the above you have to call the snippet
 ```
 
 These excerpts are taken from [a chapter of our example thesis](https://github.com/TheChymera/masterarbeit/blob/master/preliminary_experiments.tex).
-The first call prints a figure (as seen above, ```fig_pe_ss1``` is the result of the latex figure function), and the second call uses some of the functions loaded [here](https://github.com/TheChymera/masterarbeit/blob/master/pythontex/functions.tex) to perform a t-test and format the output to obtain the best typographical result.
+The first call prints a figure (as seen above, `fig_pe_ss1` is the result of the latex figure function), and the second call uses some of the functions loaded [here](https://github.com/TheChymera/masterarbeit/blob/master/pythontex/functions.tex) to perform a t-test and format the output to obtain the best typographical result.
 Needless to say, the result of this t-test will be recalculated and the figure re-plotted whenever you update any of the scripts dependencies.
 
 ## Open Data
@@ -112,7 +112,7 @@ A fresh new approach to sharing data is [Academic Torrents](http://academictorre
 this initiative has many merits, including being decentralized, and providing feasible high-speed downloads.
 As torrents do not serve data directly, piping data from academic torrents to your python scripts would require additional scripting.
 
-In our example thesis we found it far more convenient to serve the data via ```http``` and have python source it from there - without even requiring a formal download.
+In our example thesis we found it far more convenient to serve the data via `http` and have python source it from there - without even requiring a formal download.
 We do this via the HTML parser in the [data acquisition file](https://github.com/TheChymera/facesRT/blob/master/analysis/data_functions.py) of an [example analysis script](https://github.com/TheChymera/facesRT):
 
 ```python
@@ -136,17 +136,17 @@ if pre_fileslist == []:
 files = [lefile for lefile in pre_fileslist if lefile.endswith('.csv') and not lefile.endswith(ignore_filename+'.csv')]
 ```
 
-A good tool to put data online is ```rsync```.
+A good tool to put data online is `rsync`.
 We use it running the following from our data root:
 
 ```bash
 rsync --filter '- */.*' -e "/usr/bin/ssh"  --bwlimit=2000 -av EXPERIMENT_ID user@server.host.com:remote/data/root/
 ```
 
-An added benefit of this command is that it omits files and folders of the ```*/.*``` format.
+An added benefit of this command is that it omits files and folders of the `*/.*` format.
 You can use this format to store crash logs, botched output, or other (meta)data from your experiments which you may be interested in keeping but which is irrelevant for the data analysis.
 
-Of course for the command to work you need to set up ```ssh``` for your server.
+Of course for the command to work you need to set up `ssh` for your server.
 This is totally easy, and most hosting companies have short how-tos for this online (we use Dreamhost, and [here's ours](http://wiki.dreamhost.com/SSH)). 
 
 [nature2006]: http://www.nature.com/nature/peerreview/debate/index.html "“Nature's Peer Review Debate”. Nature 2006"
