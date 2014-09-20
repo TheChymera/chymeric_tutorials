@@ -78,14 +78,14 @@ This is an excellent opportunity to erode you adversary's total troop and territ
 ##Reinforcements
 
 As previously discussed, **3v1** and **2v1** attack configurations are very favorable to the attacker.
-So is, in fact, **3v2** - such battle events, however, cannot be averted in the reinforcement phase (they can be averted in the attack phase, as seen in AR1).
+So is, in fact, **3v2** - but **3v2** battle events can, however, not be averted in the reinforcement phase (they can be averted in the attack phase, as seen in AR1).
 Key concepts for reinforcement include:
 
 ####RR1 - Do not leave exposed 1-troop territories
 Troops left alone on a territory get high attrition during the adversary's attacks - meaning that you not only cannot hold the respective territory, you are also wasting the unit.
 
 ####RR2 - Reinforce bottlenecks
-Bottlenecks (territories which control access into regions not otherwise inaccessible) provide an excellent means to make sure as many as your troops as possible will be attacked in a **3v2** scenario -
+Bottlenecks (territories which control access into regions otherwise inaccessible) provide an excellent means to make sure as many as your troops as possible will be attacked in a **3v2** scenario -
 which is the most advantageous configuration you can have against an informed attacker.
 The advantages of reinforcing a bottleneck can outweigh RR1, though it is best to keep both these rules in mind during the attack phase - so that you will not be forced to chose.
 
