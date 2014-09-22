@@ -10,7 +10,7 @@ published: false
 ---
 
 The [Raspberry Pi](http://en.wikipedia.org/wiki/Raspberry_pi) (often referred to in shorthand as RPi) is a credit-card size single-board computer very popular with the [DIY](http://en.wikipedia.org/wiki/Do_it_yourself) and hacker communities.
-As such, while there are a number of commercial cases for the Raspberry Pi, users often prefer to invest a bit of time in making their own.
+As such, while there are a number of commercial cases for the Raspberry Pi, users often prefer to instead invest a bit of time in making their own.
 
 Based on the initial idea of the [Punnet case](http://www.raspberrypi.org/forums/viewtopic.php?t=6424), we have designed the **RPi Chr paper case**, an improved version, with:
 
@@ -31,8 +31,7 @@ We use “Sans” for all text to ensure legibility on all systems.
 Here are a couple of shots of the Chymeric Paper Case in action.
 You will note the absence of vent etchings;
 while our case blueprint provides them for people thus inclined, we have yet to run into trouble because of their absence.
-In fact, the Pi is designed from elements made to be encased in objects such as mobile phones, with no air flow whatsoever (check out [this forum thread](http://www.raspberrypi.org/forums/viewtopic.php?f=40&t=49340) for more information).  
-
+In fact, the Pi is designed from elements made to function with no air flow whatsoever (check out [this forum thread](http://www.raspberrypi.org/forums/viewtopic.php?f=40&t=49340) for more information).  
 
 ##Tips & Tricks
 
