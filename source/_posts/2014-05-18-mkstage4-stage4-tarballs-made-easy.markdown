@@ -5,7 +5,7 @@ date: 2014-05-18 05:53:23 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
 comments: true
-categories: [FOSS, Gentoo, Raspberry Pi, coding, ebuild]
+categories: [FOSS, Gentoo, Raspberry Pi, coding, scripting, ebuild]
 published: true
 ---
 

@@ -5,7 +5,7 @@ date: 2014-02-06 23:35:02 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
 comments: true
-categories: [Linux, Gentoo, bash, coding]
+categories: [Linux, Gentoo, bash, coding, scripting]
 published: true
 ---
 
