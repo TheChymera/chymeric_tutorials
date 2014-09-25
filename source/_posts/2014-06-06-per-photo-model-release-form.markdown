@@ -5,7 +5,7 @@ date: 2014-06-06 07:30:38 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
 comments: true
-categories: [photography, document outline, model photography, legal, meta]
+categories: [photography, document outline, model photography, legal]
 published: true
 ---
 
