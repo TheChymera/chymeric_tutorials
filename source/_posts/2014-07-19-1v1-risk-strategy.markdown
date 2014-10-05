@@ -43,14 +43,16 @@ Based on this information, you should:
 Unless otherwise strategically mandated, reinforcing territories that contain only 1 or 2 troops is a poor move - as you will thus deprive yourself of using 1 or even 2 of your troops in an optimal attack configuration.
 
 ####PR2 - Split troops between territories
-This might indeed sound counterintuitive, but based on data from the aforementioned compound odds table, two attack scenarios starting with **4v3** each are more advantageous than one attack scenario starting with **5v3** (refer to [this page](http://chymeric.eu/blog/2014/07/23/per-attack-risk-dice-odds/) for more information on the notation):
+This might indeed sound counterintuitive, but based on data from the aforementioned compound odds table, two attack scenarios starting with **3v3** each are more advantageous than one attack scenario starting with **4v3**.
+Keep in mind that as per our notation e.g. **3v3** means 4 troops on the attacking territory and 3 on the defending territory.
+Regarding this demonstrative calculation's probability notation refer to [this page](http://chymeric.eu/blog/2014/07/23/per-attack-risk-dice-odds/):
 
 $$
-\Pr(V\vert(4,3),(4,3)) \approx 0.642+0.642(1-0.642) \approx 0.872
+\Pr(V\vert(3,3),(3,3)) \approx 0.47+0.47(1-0.47) \approx 0.719
 $$
 
 $$
-\Pr(V\vert(5,3)) \approx 0.769
+\Pr(V\vert(4,3)) \approx 0.642
 $$
 
 Also, keep in mind that the added benefit of splitting troops instead of placing them on the same territory decreases as the number of placeable troops goes up.
@@ -66,7 +68,7 @@ The [single-battle odds table](http://chymeric.eu/blog/2014/07/23/per-attack-ris
 It follows that you should:
 
 ####AR1 - Attack if you have 4 or more troops on a territory
-Even if the adversary has more troops on a territory, it is still beneficial to attack until your troop count in the adjacent territory is close to 3.
+Even if the adversary has more defenders than you have attackers, it is still beneficial to attack until your troop count in the attacking territory is close to 3.
 This is not necessarily in the hope of conquering his territory (though for troop counts exceeding **15v16**, this might actually be the case - as shown [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)).
 It might *seem* like you are weakening your defense, but in fact your troops are more efficient at causing attrition in your opponent's ranks ranks if used for an attack rather than kept for "defense".
 
@@ -74,6 +76,13 @@ It might *seem* like you are weakening your defense, but in fact your troops are
 The most favorable attack scenarios are **3v1** and **2v1**.
 If you find yourself presented with such an attack opportunity, do not miss it!
 This is an excellent opportunity to erode you adversary's total troop and territory count.
+An exception to this rule may be made for AR3:
+
+####AR3 - Avoid attacking territories next to large stacks
+Optimizing your attack opportunities is on par with containing the opponent's opportunities.
+If for some reason your opponent has large troop stacks (more than 4) in a territory not adjacent to any of yours (e.g. to protect a bottleneck), avoid attacking the adjacent territories if you cannot reasonably expect to also neutralize the threat of the stack.
+By doing this you will deprive him of the use of a large number of troops come next round.
+Otherwise the next round will find you faced with an attack force you may not be apt to defend yourself from.
 
 ##Reinforcements
 
