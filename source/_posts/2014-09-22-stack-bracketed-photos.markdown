@@ -37,10 +37,10 @@ The Hugin software package may in itself be geared towards graphical interface u
 * `align_image_stack` - as the name says, this aligns the images
 * `enfuse` - this fuses the images
 
-Hugin, sadly, cannot load RAW files, and therefore (in order to keep the 16bit dynamic range) we need to convert the files [TIFF](http://en.wikipedia.org/wiki/Tagged_Image_File_Format).
+Hugin, sadly, cannot load RAW files, and therefore (in order to keep the 16bit dynamic range) we need to convert the files to [TIFF](http://en.wikipedia.org/wiki/Tagged_Image_File_Format).
 This is best done in batch with the `ufraw-batch` command from [UFRaw](http://en.wikipedia.org/wiki/UFRaw).
 
-The stackHDR script (which is available at the aforementioned [link on GitHub](https://github.com/TheChymera/stackHDR)) is based on earlier [efforts by Edu Perez](http://photoblog.edu-perez.com/2009/04/script-hdr-with-linux.html), which have also lead to at least [one other offshoot](http://linuxdarkroom.tassy.net/hdr-creation-script/).
+The stackHDR script (which is available via the aforementioned [GitHub link](https://github.com/TheChymera/stackHDR)) is based on earlier [efforts by Edu Perez](http://photoblog.edu-perez.com/2009/04/script-hdr-with-linux.html), which have also lead to at least [one other offshoot](http://linuxdarkroom.tassy.net/hdr-creation-script/).
 Sadly, however, both these solutions are unmaintained at least as of 2011.
 
 The improvements which stackHDR brings are:
