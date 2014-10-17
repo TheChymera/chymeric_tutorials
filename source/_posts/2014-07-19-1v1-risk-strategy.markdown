@@ -27,7 +27,7 @@ While as much seems obvious, players should make sure to understand that:
 * *Future odds are not influenced by past outcomes* - bad/good dice just mean that your position has worsened/improved, and should not affect your future roll expectations.
 * *The odds (especially for computer-based versions) are unbiased* - you can only become a great player by winning games where your luck was reasonably bad.
 
-Total probabilities for taking over a territory - based on the total number of attacking and defending troops - can be determined via a Markov chain (as for instance in [this paper](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)) or via a Monte Carlo simulation (as - not very accurately - implemented in [this simulator](http://riskodds.com/index.php)).
+Total probabilities for taking over a territory - based on the total number of attacking and defending troops - can be determined via a Markov chain (as for instance in [this paper](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)) or via a Monte Carlo simulation.
 That information, however, is mostly irrelevant in a 1v1 game, since you should never auto-attack.
 With every attack the state of the game changes, and you should always re-evaluate your next move in light of the new state.
 
