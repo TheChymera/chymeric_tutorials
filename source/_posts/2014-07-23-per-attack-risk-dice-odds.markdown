@@ -20,7 +20,7 @@ The throwing of the die is governed by the following rules:
 * Only the top dice are considered if a player throws more dice than his opponent.
 * Dice are paired with each other in an ordinal fashion.
 
-There are already texts providing more wide-ranging whole-battle predictions (as for instance [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)), and closed-source (and in this particular case, also inaccurate) [battle simulators](http://riskodds.com/).
+There are already texts providing more wide-ranging whole-battle predictions (as for instance [here](http://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf)), and closed-source (and in many cases, also inaccurate) battle simulators.
 Here we try to offer a transparent formulaic reference and odds table for all single-attack scenarios. 
 
 <!-- more -->
