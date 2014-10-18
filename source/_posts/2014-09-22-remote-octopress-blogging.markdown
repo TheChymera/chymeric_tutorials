@@ -14,7 +14,7 @@ With the advent of [increasing](http://upload.wikimedia.org/wikipedia/commons/8/
 Most modern content management systems provide ample possibilities for this - static site generators, however, typically do not.
 
 This is mainly a consequence of the infrastructure requirements that static site generation places on a system (in case of Octopress these being at least [Ruby](http://en.wikipedia.org/wiki/Ruby_(programming_language)) and a number of Ruby gems - possibly also Git), and the fact that most mobile platforms cannot yet meet them.
-The different paradigm of static site generatot blogging thus mandates a different approach to remote blogging.
+The different paradigm of static site generator blogging thus mandates a different approach to remote blogging.
 Here we present a 2-element (sync and [inotify](http://en.wikipedia.org/wiki/Inotify)-triggered scripts) automatic solution for remote Octopress blogging, and a short section on remote content authoring (sans publication) via [GitHub](http://en.wikipedia.org/wiki/GitHub).
 
 <!-- more -->
