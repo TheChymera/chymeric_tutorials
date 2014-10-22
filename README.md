@@ -88,7 +88,7 @@ Other than that, you're good to go!
 
 From your blog directory (using the *whitespace* theme as an example):
 
-    $ git -C .themes/whiteapace pull origin master
+    $ git -C .themes/whitespace pull origin master
     $ rake install['whitespace']
     $ git fetch --all
     $ git reset --hard origin/master
