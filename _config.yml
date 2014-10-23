@@ -7,6 +7,7 @@ title: Chymeric Tutorials
 subtitle: Do awesome stuff - awesomely.
 author: Chymeric Tutorials
 simple_search: https://www.google.com/search
+adsense_cse_partner_ID: partner-pub-7098702430898545:7199726742
 description: Chymeric Tutorials brings you how-to's from an eclectic, chimeric background. You want to learn how to do something, exotic, new, weird, or esoteric? We show you how! And yes, we do take requests.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -99,3 +100,6 @@ google_analytics_tracking_id: UA-44443205-3
 
 # Facebook Like
 facebook_like: true
+
+# YouTube Channel
+youtube_channel: chymerictutorials
