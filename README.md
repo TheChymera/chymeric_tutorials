@@ -35,7 +35,7 @@ As per the [upstream instructions](http://octopress.org/docs/setup/):
     
 ###Get our Theme of Choice
 
-We use the [whitespace theme](https://github.com/lucaslew/whitespace) for our website, and this repository also contains visual customizations matching that theme.
+We use the [whitespace theme](https://github.com/lucaslew/whitespace) for our website, and this repository also contains visual customizations complementing that theme.
 
     $ git clone https://github.com/lucaslew/whitespace.git .themes/whitespace
     $ rake install['whitespace']
