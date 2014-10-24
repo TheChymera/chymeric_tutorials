@@ -10,24 +10,25 @@ published: true
 ---
 
 [Octopress](http://octopress.org/) is one of the [most widely used static site generators](https://www.staticgen.com/), and as such attracts a large number of bloggers.
-With the advent of [increasing](http://upload.wikimedia.org/wikipedia/commons/8/86/Usage_share_of_web_browsers_%28Source_StatCounter%29.svg) smartphone and tablet computer based internet usage, authors in general and bloggers in particular adapt their habits to write and publish on the go.
-Most modern content management systems provide ample possibilities for this - static site generators, however, typically do not.
+With the advent of [increasing](http://upload.wikimedia.org/wikipedia/commons/8/86/Usage_share_of_web_browsers_%28Source_StatCounter%29.svg) smartphone and tablet based internet usage, authors in general and bloggers in particular adapt their habits to write and publish on the go.
+Most modern content management systems provide ample possibilities for mobile publishing - static site generators, however, typically do not.
 
 This is mainly a consequence of the infrastructure requirements that static site generation places on a system (in case of Octopress these being at least [Ruby](http://en.wikipedia.org/wiki/Ruby_(programming_language)) and a number of Ruby gems - possibly also Git), and the fact that most mobile platforms cannot yet meet them.
-The different paradigm of static site generator blogging thus mandates a different approach to remote blogging.
-Here we present a 2-element (sync and [inotify](http://en.wikipedia.org/wiki/Inotify)-triggered scripts) automatic solution for remote Octopress blogging, and a short section on remote content authoring (sans publication) via [GitHub](http://en.wikipedia.org/wiki/GitHub).
+The different paradigm of static site publishing thus also mandates a different approach to remote blogging.
+Here we present a 2-element (sync & [inotify](http://en.wikipedia.org/wiki/Inotify)-triggered scripts) automatic solution for remote Octopress blogging, and a short section on remote content authoring (sans publication) via [GitHub](http://en.wikipedia.org/wiki/GitHub).
 
 <!-- more -->
 
 ##Sync
 
-Sync (or syncing), short for synchronization, describes keeping your directories and files identical over many machines, with updates spreading from the machine they were authored on to all others.
-There are many software solutions for this (commonly referred to as sync clients), with some of the more popular being: [Dropbox](http://en.wikipedia.org/wiki/Dropbox_(service)), [Google Drive](http://en.wikipedia.org/wiki/Google_Drive), [BitTorrent Sync](http://en.wikipedia.org/wiki/BitTorrent_Sync), and [Syncthing](http://en.wikipedia.org/wiki/Syncthing) (the latter two being non-could-based, and the latter even being open source).
+Sync, short for synchronization, means keeping your directories and files consistent over multiple machines, with updates spreading from the machine they were authored on to all others.
+There are many software solutions for syncing (commonly referred to as sync clients), with some of the more popular being: [Dropbox](http://en.wikipedia.org/wiki/Dropbox_(service)), [Google Drive](http://en.wikipedia.org/wiki/Google_Drive), [BitTorrent Sync](http://en.wikipedia.org/wiki/BitTorrent_Sync), and [Syncthing](http://en.wikipedia.org/wiki/Syncthing) (the latter two being non-could-based, and the latter also being open source).
 
-To set up syncing for static site generation, you need to install your sync client of choice on all your mobile devices **plus** on one (*just* one - in order to avoid update conflicts) machine that is neigh-continuously online. 
-This can either be a server (or your shared server space) or simply your desktop computer if you never turn it off.
-For the purposes of this guide (since we specifically give inotify instructions) you should also make sure this is a Linux machine.
-Once your sync network is ready, simply enable syncing for your blog root - or just for your `/source`  or `/source/_posts` directory.
+To set up syncing for static site generation, install a sync client of your choice on all your mobile devices **plus** on one (*just* one - in order to avoid update conflicts) machine that is neigh-continuously online. 
+This latter machine can either be a server or simply your desktop computer (if you never turn it off).
+For the purposes of this guide (which specifically gives inotify instructions) you should also make sure that the respective server or desktop machine runs Linux.
+
+Once your sync network is ready, simply enable syncing for your Octopress blog root - or just for your `/source`  or `/source/_posts` directory.
 
 ###Dropbox
 In spite of its shortcomings (limited storage, closed-source, cloud-based) we currently recommend Dropbox over all other alternatives for remote static site generator blogging.
