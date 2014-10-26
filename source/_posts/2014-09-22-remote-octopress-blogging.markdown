@@ -13,7 +13,7 @@ published: true
 With the advent of [increasing](http://upload.wikimedia.org/wikipedia/commons/8/86/Usage_share_of_web_browsers_%28Source_StatCounter%29.svg) smartphone and tablet based internet usage, authors in general and bloggers in particular adapt their habits to write and publish on the go.
 Most modern content management systems provide ample possibilities for mobile publishing - static site generators, however, typically do not.
 
-This is mainly a consequence of the infrastructure requirements that static site generation places on a system (in case of Octopress these being at least [Ruby](http://en.wikipedia.org/wiki/Ruby_(programming_language)) and a number of Ruby gems - possibly also Git), and the fact that most mobile platforms cannot yet meet them.
+This is a consequence of the infrastructure requirements that static site generation places on a system (in case of Octopress these being at least [Ruby](http://en.wikipedia.org/wiki/Ruby_(programming_language)) and a number of Ruby gems - possibly also Git), and the fact that most mobile platforms cannot yet meet them.
 The different paradigm of static site publishing thus also mandates a different approach to remote blogging.
 Here we present a 2-element (sync & [inotify](http://en.wikipedia.org/wiki/Inotify)-triggered scripts) automatic solution for remote Octopress blogging, and a short section on remote content authoring (sans publication) via [GitHub](http://en.wikipedia.org/wiki/GitHub).
 
@@ -21,12 +21,12 @@ Here we present a 2-element (sync & [inotify](http://en.wikipedia.org/wiki/Inoti
 
 ##Sync
 
-Sync, short for synchronization, means keeping your directories and files consistent over multiple machines, with updates spreading from the machine they were authored on to all others.
+Sync (short for synchronization) means keeping your directories and files consistent over multiple machines, with updates spreading from the machine they were authored on to all others.
 There are many software solutions for syncing (commonly referred to as sync clients), with some of the more popular being: [Dropbox](http://en.wikipedia.org/wiki/Dropbox_(service)), [Google Drive](http://en.wikipedia.org/wiki/Google_Drive), [BitTorrent Sync](http://en.wikipedia.org/wiki/BitTorrent_Sync), and [Syncthing](http://en.wikipedia.org/wiki/Syncthing) (the latter two being non-could-based, and the latter also being open source).
 
 To set up syncing for static site generation, install a sync client of your choice on all your mobile devices **plus** on one (*just* one - in order to avoid update conflicts) machine that is neigh-continuously online. 
 This latter machine can either be a server or simply your desktop computer (if you never turn it off).
-For the purposes of this guide (which specifically gives inotify instructions) you should also make sure that the respective server or desktop machine runs Linux.
+To follow this guide's inotify-specific sections you should also make sure that the respective server or desktop machine runs a Linux distribution.
 
 Once your sync network is ready, simply enable syncing for your Octopress blog root - or just for your `/source`  or `/source/_posts` directory.
 
@@ -35,7 +35,8 @@ In spite of its shortcomings (limited storage, closed-source, cloud-based) we cu
 This is chiefly due to Dropbox being supported by all major platforms (Windows, OSX, Linux, Android, and iOS), and being well integrated with text-editors on operation systems which do not commonly allow [apps](http://en.wikipedia.org/wiki/Mobile_app) to access the same files (e.g. iOS).
 
 In Dropbox you cannot simply select what directories you want synced, but rather have (one) dedicated `~/Dropbox/` directory where you have to place all your content.
-You will thus need to move your blog folder from the location you may have become accustomed to - though this inconvenience can be mitigated by creating a symlink from your previously used path:
+You will thus need to move your blog folder from the location you may have become accustomed to.
+Still, this inconvenience can be mitigated by creating a symlink from your previously used path:
 
 ```
 ln -s /Dropbox/path/to/your/blog /your/accustomed/blog/directory
@@ -43,14 +44,14 @@ ln -s /Dropbox/path/to/your/blog /your/accustomed/blog/directory
 
 ##Inotify-triggered Commands (via Incron)
 
-[Inotify](http://en.wikipedia.org/wiki/Inotify) allows the Linux kernel to detect changes in the filesystem.
+In short, [inotify](http://en.wikipedia.org/wiki/Inotify) allows the Linux kernel to detect changes in the filesystem.
 Once you have successfully set up syncing you can use this to conveniently trigger site rebuild and deployment whenever a specific event happens in your synced blog directory.
 Our (and advisably your) tool of choice for this task is [incron](http://inotify.aiken.cz/?section=incron&page=about&lang=en).
 
-You can configure incron via incron tables (text files that tell it where to look for what events and what to do upon the specified events occurring).
+You can configure incron via incron tables (text files that tell it *where* to look for *what* events and *what to do* upon the specified events occurring).
 These tables contain single-row instructions formatted as `<path> <mask> <command>`; where `<path>` is watched, `<mask>` specifies what events to look for, and `<command>` specifies the command to run upon occurrence of the aforementioned events.
 You can get a list of the incrontab mask tags (as well as a more in-depth explanation of incron tables) from the relevant man page - just run `man 5 incrontab`.
-Aditionally, incrontab also provides dollar sign wildcards which you can pass as arguments to your command of choice (more on this also in the aforementioned man page). 
+Aditionally, incrontab also provides dollar sign wildcards which you can pass as arguments to your command of choice (read more on this in the aforementioned man page). 
 
 Two things worth an explicit mention here, however, are:
 
