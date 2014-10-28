@@ -2,6 +2,7 @@
 layout: post
 title: "remote octopress blogging - Sync and Inotify"
 date: 2014-10-17 05:51:18 +0200
+updated: 2014-10-26 19:30:00 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
 comments: true
