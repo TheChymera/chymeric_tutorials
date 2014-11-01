@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "How to read science news"
-date: 2014-10-18 10:26:20 +0200
+date: 2014-11-01 01:17:20 +0200
 comments: true
-categories: 
+categories: [science, epistemology, education, ]
 published: false
 ---
