@@ -14,7 +14,7 @@ These instructions use linux commands and directory structures.
 
 <!-- more -->
 
-## Replace Sting in All Files in Directory
+## Replace String in All Files in Directory
 Especially when coding you may find yourself changing a variable name or some library path, which is referenced in multiple places across multiple files.
 [sed](https://en.wikipedia.org/wiki/Sed) and [grep](https://en.wikipedia.org/wiki/Grep) come in handy here, and can help you do all that menial name changing in one simple line from your terminal:
 
