@@ -56,7 +56,7 @@ Arguably the most important software packages for neuropsychology and brain imag
 Apparently the packages do not really meet Gentoo security, build, and file management exigences and need to be patched - quite a bit.
 The Project is community-lead, and help would be much appreciated!
 
-But the good news is: 
+But the good news is:
 The packages kind of work!
 Not yet well enough for the gentoo-science overlay, but perhaps well enough for you and me.
 So, these are the packages we are still working on (and which you can already use):
@@ -68,28 +68,28 @@ So, these are the packages we are still working on (and which you can already us
 While officially unsupported, these packages are just as easy to get as the supported ones.
 You can simply merge the NeuroGentoo branch from our gentoo-science fork into your local gentoo-science repository.
 **After** following the gentoo-science overlay instructions from the previous section, run:
-   
+
 ```bash
 cd /usr/local/portage/sci
 git remote add chymera https://github.com/TheChymera/sci.git
 git pull chymera neurogentoo
 ```
-    
+
 ## NeuroGentoo!
 
 Now that you have read, understood, and followed the instructions above - **How-To: NeuroGentoo** boils down to the following:
 
 ### Emerge!
 
-The stable versions are at your fingertips - and if you want the cutting-edge development versions you can just [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package). 
+The stable versions are at your fingertips - and if you want the cutting-edge development versions you can just [tell Portage](http://wiki.gentoo.org/wiki/Knowledge_Base:Unmasking_a_package).
 
-{% codeblock To install - for instance - PsychoPy, simply emerge from a root shell: lang:console %}
+```
 # emerge psychopy
-{% endcodeblock %}
+```
 
 ### Contribute!
 
-Yes, NeuroGentoo is supported by Gentoo users and neuroscientists (if you are here you might well be at least one of those) - 
+Yes, NeuroGentoo is supported by Gentoo users and neuroscientists (if you are here you might well be at least one of those) -
 we do not have paid employees nor do we make a direct profit from this.
 We contribute because neuroscience is important and Gentoo is awesome!
 
