@@ -91,5 +91,3 @@ Our ebuild uses a custom config file, which is edited to remove the ```"login"``
 
 the ebuilds are brought to you by [Robert Walker](https://github.com/bobwya) and [Horea Christian](https://github.com/TheChymera).
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-16-btsync.markdown)!</sup>

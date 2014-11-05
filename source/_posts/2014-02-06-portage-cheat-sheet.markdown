@@ -68,5 +68,3 @@ cat /var/lib/portage/world
 qfile /path/to/file
 ```
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-06-portage-cheat-sheet.markdown)!</sup>

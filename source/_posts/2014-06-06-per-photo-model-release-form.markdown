@@ -51,6 +51,3 @@ All you need to do is keep the original file on record and evidence that all res
 You can always recalculate the checksum and it will always be the same.
 This is pretty much it!
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-06-06-per-photo-model-release-form.markdown)!</sup>
-

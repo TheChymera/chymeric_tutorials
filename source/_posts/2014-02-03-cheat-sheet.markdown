@@ -204,5 +204,3 @@ Note that ```chown``` may need to be run as root.
 chown -R user your/directory/path/
 ```
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-03-cheat-sheet.markdown)!</sup>

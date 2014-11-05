@@ -56,5 +56,3 @@ Notable omissions of our script include:
 * No `.hdr` format output
 * No tone mapping functionality
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-09-22-stack-bracketed-photos.markdown)!</sup>

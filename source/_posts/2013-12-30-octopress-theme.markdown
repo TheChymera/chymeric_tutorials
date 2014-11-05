@@ -156,5 +156,3 @@ These directories are intended for end-user customization and should **not** be 
 
 Adding any code to (or uncommenting any code from) ```/sass/custom/*.scss``` or ```/source/_includes/custom``` will make your theme slightly less responsive, harder to hack by the end-user, and harder to build any further themes on. 
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-12-30-octopress-theme.markdown)!</sup>

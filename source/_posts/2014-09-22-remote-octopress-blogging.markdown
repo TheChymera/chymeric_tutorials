@@ -87,5 +87,3 @@ Such solutions - though feasible - generally require a bit more trial-and-error 
 For GitHub users we, however, recommend the increasingly powerful web-interface for content creation or editing.
 Though it will not publish to your blog without additional scripting, it is easy to edit your content (and commit) directly via GitHub from any mobile platform which is HTML5-compatible.
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-09-22-remote-octopress-blogging.markdown)!</sup>

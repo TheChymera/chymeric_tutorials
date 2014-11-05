@@ -129,5 +129,3 @@ Their outstanding performance is due to successful masking of skin imperfections
 #####“Not enough” you say? Help us make this guide more useful! Comment or [contribute](http://photo.chymera.eu/interact/)!	
 [woodward1939]: http://www.smithsonianmag.com/arts-culture/Shades-of-Ansel-Adams.html "Woodward, Richard. “Ansel Adams in Color”. Smithsonian Magazine."
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-22-faded-color-filters.markdown)!</sup>

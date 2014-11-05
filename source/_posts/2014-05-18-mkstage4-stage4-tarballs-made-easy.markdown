@@ -77,5 +77,3 @@ cd /mount/point/for/your/partition/boot
 tar xvjpf boot_archive_name.tar.bz2
 ```
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-05-18-mkstage4-stage4-tarballs-made-easy.markdown)!</sup>

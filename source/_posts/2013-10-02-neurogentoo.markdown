@@ -102,5 +102,3 @@ We will however gladly include any working ebuilds in [our overlay](https://gith
 
 The Neurogentoo initiative is coordinated by [Horea Christian](https://github.com/TheChymera), and contributors include [François Bissey](https://github.com/kiwifb) and [Martin Luessi](https://github.com/mluessi).
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2013-10-02-neurogentoo.markdown)!</sup>

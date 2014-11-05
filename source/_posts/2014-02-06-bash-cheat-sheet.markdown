@@ -56,5 +56,3 @@ Quotation marks are optional here and come in handy only if your code snippet co
 You can escape single characters by prefixing them with a backslash (```\```).
 
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-02-06-bash-cheat-sheet.markdown)!</sup>

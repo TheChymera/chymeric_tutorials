@@ -37,5 +37,3 @@ In fact, the Pi is designed from elements made to function with no air flow what
 
 ###Download the RPi Chymeric Paper Case as [SVG](http://chymera.eu/res/RPi_chr_paper_case.svg) or [PDF](http://chymera.eu/res/RPi_chr_paper_case.pdf)!
 
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/_posts/2014-04-03-rpi-chr-paper-case.markdown)!</sup>
