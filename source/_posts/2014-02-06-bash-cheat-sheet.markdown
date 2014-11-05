@@ -10,16 +10,17 @@ published: true
 ---
 
 This is a collection of bash scripts solving a series of eclectic use cases which we have encountered in the past.
-These instructions use linux commands and directory structures. 
+These instructions use linux commands and directory structures.
 
 <!-- more -->
+
 ## Replace Sting in All Files in Directory
 Especially when coding you may find yourself changing a variable name or some library path, which is referenced in multiple places across multiple files.
 [sed](https://en.wikipedia.org/wiki/Sed) and [grep](https://en.wikipedia.org/wiki/Grep) come in handy here, and can help you do all that menial name changing in one simple line from your terminal:
 
 ```bash
 grep -rl . | xargs sed -i 's/text-you-want-to-replace/your-new-text/g'
-``` 
+```
 
 Please note that the slashes (```/```) in the above code are part of the sed syntax and should stay the same independently of your text change.
 Also note that [some characters need escaping in sed](http://unix.stackexchange.com/questions/32907/what-characters-do-i-need-to-escape-when-using-sed-in-a-sh-script).
