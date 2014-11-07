@@ -78,11 +78,20 @@ end
 
 desc "preview the site in a web browser"
 task :preview do
+  preview_site(source_dir, server_port)
+end
+
+desc "preview the site including unpublished posts in a web browser"
+task :preview_all do
+  preview_site(source_dir, server_port, "--unpublished")
+end
+
+def preview_site(source_dir, server_port, *options)
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   touch ".preview-mode"
   puts "Starting to watch source with Jekyll and Compass. Starting Rack on port #{server_port}"
   system "compass compile --css-dir #{source_dir}/stylesheets" unless File.exist?("#{source_dir}/stylesheets/screen.css")
-  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, "jekyll build --watch --unpublished")
+  jekyllPid = Process.spawn({"OCTOPRESS_ENV"=>"preview"}, (%w(jekyll build --watch) + options).join(" "))
   compassPid = Process.spawn("compass watch")
   rackupPid = Process.spawn("rackup --port #{server_port}")
 
@@ -253,7 +262,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     Bundler.with_clean_env { system "git pull" }
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
