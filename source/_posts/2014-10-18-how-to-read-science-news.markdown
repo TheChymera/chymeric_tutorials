@@ -9,21 +9,21 @@ categories: [science, journalism, education]
 
 Pop-science is currently no topic to overlook on social media.
 Websites or groups such as 8fact or IFLScience easily collect millions of likes and receive a high number of re-shares on their content.
-In parallel, more traditional outlets - such as Wired Magazine or Discover Magazine - also continue to attract a large readership and have a vast outreach on social networks. 
+In parallel, more traditional outlets - such as Wired Magazine or Discover Magazine - also continue to attract a large readership and have a vast outreach on social networks.
 The scientific readership routinely recognizes pop-science reporting as inaccurate, misleading, or even outright wrong.
-Oblivious to most science reporters' lack of insight, however, laymen may instead wonder: 
+Oblivious to most science reporters' lack of insight, however, laymen may instead wonder:
 *Why does technology not deliver upon the promises made by pop-science?*
-or *Why are pop-science reports so inconsistent?* 
+or *Why are pop-science reports so inconsistent?*
 The answer to both questions is plainly: **very bad journalism**.
 However, instead of reflecting badly on its authors, sub-par pop-science undermines the credibility of research: creating either the impression that science overreaches and cannot deliver, or that there is gross disagreement in the scientific community - even when there is little.
 
-We assume that this incorrect appraisal of science is based on a series of misconceptions about what science news actually constitute, and we present a brief theoretical explanation of how one should best contextualize science journalism. 
+We assume that this incorrect appraisal of science is based on a series of misconceptions about what science news actually constitute, and we present a brief theoretical explanation of how one should best contextualize science journalism.
 
 <!-- more -->
 
 ##Who Writes Pop-Science?
 
-Contrary to many a layman's impression, pop-science is seldom written by actual scientists, with any specialized knowledge pertaining to the field at hand. 
+Contrary to many a layman's impression, pop-science is seldom written by actual scientists, with any specialized knowledge pertaining to the field at hand.
 Admittedly, a very small number of science journalists might sport an undergraduate degree in some science subject - but, while this may be used to leverage extra credibility, a BSc. does not a scientist make.
 It is entirely possible if not common to coast through Master's or Bachelor's courses without ever being up-to-date with primary scientific literature
 - and certainly without acquiring the skills needed to critically report on it.
@@ -35,7 +35,7 @@ Consequently, their writing should never be taken at face value in the absence o
 ##Why Does One Write Pop-Science?
 
 The chief claim of most pop-science authors is that they want to educate the public on the wonders of science.
-To be sure, there are many science educators out there: 
+To be sure, there are many science educators out there:
 they work in schools, universities, and on the internet (teaching basic principles of science on YouTube, or answering questions on [StackExchange](http://en.wikipedia.org/wiki/Stack_Exchange)).
 What these science educators have in common is that they package information in a teaching-friendly format: starting with their target demographic's basics and working up from there.
 Journalism, however, does not fit this format.
@@ -51,7 +51,7 @@ Needless to say, science seldom fits this format, and one should be weary of rep
 Other science journalists may choose to also (or rather) market the *credibility* of science.
 Opinion pieces can easily become more authoritative if they are disguised as science news; and people are easier to rally to a cause if they can be convinced it is a logical response to objective evidence.
 This motivation is most clearly seen with politically controversial issues, such as [global warming](http://en.wikipedia.org/wiki/Global_warming_controversy) or [GMO-related risks](http://en.wikipedia.org/wiki/Genetically_modified_food_controversies).
-The strong agreement of the scientific community on both these issues (plainly: [global warming *is* happening](http://en.wikipedia.org/wiki/Scientific_opinion_on_climate_change), and [GMOs *are not* dangerous](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2408621/) - also see sources [here](http://en.wikipedia.org/wiki/Genetically_modified_food_controversies) for the latter) is obscured to consumers of pop-science, precisely because many science journalists use selectively reported research to license a political agenda. 
+The strong agreement of the scientific community on both these issues (plainly: [global warming *is* happening](http://en.wikipedia.org/wiki/Scientific_opinion_on_climate_change), and [GMOs *are not* dangerous](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2408621/) - also see sources [here](http://en.wikipedia.org/wiki/Genetically_modified_food_controversies) for the latter) is obscured to consumers of pop-science, precisely because many science journalists use selectively reported research to license a political agenda.
 
 ##Where do Science News Come from?
 Unsurprisingly, science news originate with scientists.
