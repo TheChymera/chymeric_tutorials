@@ -17,7 +17,7 @@ Oblivious to most science reporters' lack of insight, however, laymen may instea
 *Why does technology not deliver upon the promises made by pop-science?*
 or *Why are pop-science reports so inconsistent?*
 The answer to both questions is plainly: **very bad journalism**.
-However, instead of reflecting badly on its authors, sub-par pop-science undermines the credibility of research: creating either the impression that science overreaches and cannot deliver, or that there is gross disagreement in the scientific community - even when there is little.
+However, instead of reflecting badly on its authors, consistently sub-par pop-science undermines the credibility of research: creating the impression that science overreaches and cannot deliver, or that there is gross disagreement in the scientific community - even when there is little.
 
 We assume that this incorrect appraisal is based on a series of misconceptions about what science news actually constitute, and we present a brief theoretical explanation of how one should best contextualize science journalism.
 
@@ -96,13 +96,14 @@ It would be folly to assume that the sorry state of popular science arises solel
 While it is debatable whether the offer gave rise to the supply, or vice-versa, the reasons to read pop-science fall very well into the pattern given by the reasons to write it.
 
 People do not seek out pop-science for understanding, they seek it for the thrill of awe-inspiring factoids or for moral guidance (or worse, support) on heated issues.
-So perhaps just as crucial in the appraisal of science news as being critical of the journalist's credibility is being critical of one's own motivation to read it.
+So perhaps, in the appraisal of science news, being critical of one's own motivation to read is just as crucial as being critical of the journalists' sources and credibility.
 
-Readers who seek entertainment should best be aware that more often than not that is what pop-science offers them:
-Brief entertainment, which is best not taken to heart as veritable fact after the reading is done.
+Readers who seek entertainment should best beware that more often than not that is exactly what pop-science offers them:
+Brief entertainment - which is best not taken to heart as veritable fact after the reading is done.
 
-Readers who seek to be informed on the developments of science, might best look to obtain a very clear picture of the respective research field elsewhere - from secondary and [tertiary](http://en.wikipedia.org/wiki/Tertiary_source) sources, including Wikipedia.
-Only having a clear picture of current research can one deal with and interpret others' unclear writing (at which point that writing seizes to be informative, but can become telling with regard to the author or publisher).
+Readers seeking to be informed on the developments of science might best look to obtain a clear picture of the respective research field otherwise - e.g. via academic [review articles](http://en.wikipedia.org/wiki/Review_article) and [tertiary](http://en.wikipedia.org/wiki/Tertiary_source) sources, including Wikipedia.
+Only with a clear picture of current research in mind can one understand and interpret others' unclear writing (at which point that writing becomes less informative regarding the research, but more informative with regard to the author or publisher).
 
 Lastly, as a reader in search for moral guidance on heated issues, it is best to remember that science is by definition amoral.
-While the natural sciences continue to expand and to corner the metaphysical, and while our questions become more and more rooted in the physical, most controversies still exceed the grasp of (natural) science.
+While the natural sciences continue to expand and to corner the metaphysical, and while we learn to ask questions rooted more and more rooted in the physical, most controversies still exceed the grasp of (natural) science.
+Where science *does* have an answer and that answer *does* represent a broad consensus, reputable academic reviews and tertiary sources will again likely detail it more accurately and objectively than a news piece.
