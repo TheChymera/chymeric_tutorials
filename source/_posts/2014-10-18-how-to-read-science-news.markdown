@@ -25,32 +25,32 @@ We assume that this incorrect appraisal is based on a series of misconceptions a
 
 ##Who Writes Pop-Science?
 
-Contrary to many a layman's impression, pop-science is seldom written by actual scientists, or even by people somehow affiliated to research.
-Admittedly, a very small number of science journalists may sport some degree in some science subject - but, while this *is* often used to leverage extra credibility, a BSc. does not a scientist make.
+Contrary to many a layman's impression, pop-science is seldom written by actual scientists or by people somehow affiliated to research.
+Admittedly, a very small number of science journalists may have at some point receied some degree in some science subject.
+But, while this *is* often used to leverage extra credibility, a BSc. does not a scientist make (and certainly not the brand of scientist who can report on topics across the board.).
 It is entirely possible if not common to coast through Master's or Bachelor's courses without ever being up-to-date with primary scientific literature
 - and certainly without acquiring the skills needed to critically report on it.
-In addition to that, those who choose to turn their career towards journalism and away from research after completing an MSc. or even just a BSc. rarely posess the competence and motivation needed to thoroughly understand and accurately explain primary research.
 
-To put science journalists' personal credibility into perspective: as a rule of thumb, they are only marginally more educated on the subject matter than the average college graduate.
+To put science journalists' personal credibility into perspective: as a rule of thumb, there is little reason to assume that they are more educated on the subject matter than the average college graduate.
 Consequently, their writing should never be taken at face value in the absence of corroborating references.
 
 ##Why Does One Write Pop-Science?
 
-The chief claim of most pop-science authors is that they want to educate the public on the wonders of science.
+The chief claim of pop-science authors is that they want to educate the public on the wonders of science.
 To be sure, there are many science educators out there:
-they work in schools, universities, and even on the internet (teaching basic principles of science on YouTube, or answering questions on [StackExchange](http://en.wikipedia.org/wiki/Stack_Exchange)).
+working in schools, universities, and even on the internet (teaching basic principles of science on YouTube, or answering questions on [StackExchange](http://en.wikipedia.org/wiki/Stack_Exchange)).
 What these science educators have in common is that they package information in a teaching-friendly format: starting with their target demographic's basics and working up from there.
 Journalism, however, does not fit this format.
 Knowingly or otherwise, science journalists undermine science education, and instead mangle research reporting to fit their dissenting needs:
 
 ### Science as the dancing monkey
-A more veracious motivational statement is in fact hidden in the the claim mentioned above - “the wonders of science”.
+A more veracious motivational statement is in fact hidden in the the claim mentioned above - “the wonders of science”:
 That is what many science journalists actually want to sell.
 In doing so, they reformat (or re-imagine) scientific discoveries according to a formula more closely resembling sci-fi than science education:
 high entertainment value, no prerequisites required.
 Sadly, current research seldom conforms to this format;
 and sacrificing insight to better deliver awe-inspiring reports leaves readers oblivious to crucial limitations of both research tools and the [scientific method](http://en.wikipedia.org/wiki/Scientific_method).
-This incites both inappropriate expectations (indeed, more befitting sci-fi), and wild speculation as to why they are not being met - ranging from conspiracy theories to distrust in scientists' capabilities, but *strangely* omitting distrust for the actual reporter.
+This incites both inappropriate expectations (indeed, more befitting sci-fi), and wild speculation as to why they are not being met - ranging from conspiracy theories to distrust in scientists' capabilities, but somehow omitting distrust for the actual reporter.
 
 ### Science as the Pope
 Other science journalists may choose to also (or rather) market the *credibility* of science.
@@ -61,18 +61,26 @@ The strong agreement of the scientific community on both these issues (plainly: 
 ##Where do Science News Come from?
 Unsurprisingly, science news originate with scientists.
 Members of the scientific community publish new findings in specialized periodicals called [scientific journals](http://en.wikipedia.org/wiki/Scientific_journal).
-The reasons why the public does not directly read this primary scientific literature are twofold: the articles are often laden with difficult jargon, and in fact most of these articles are inaccessible to the public in the first place (the latter of these two phenomena being duly combated by the [open access movement](http://whoneedsaccess.org/)).
+The reasons why the public does not directly read these journals are twofold: the articles are often laden with difficult jargon, and most of these articles are in facht inaccessible to the public in the first place (the latter of these two phenomena being duly combated by the [open access movement](http://whoneedsaccess.org/)).
 
-One of the many detrimental effects of closed-circuit publishing is that *both* journalists *and* the broad public are certain to not be able to read the actual research.
+One of the many detrimental effects of such closed-circuit publishing is that *both* journalists *and* the broad public are certain to not be able to read the actual research.
 Thus forms an abstruse system that *both* precludes journalistic competence and transparency *and* hinders public review.
 In practice this translates into two licenses for pop-science journalists:
 
-* To sell reporting which is not theirs (*how else would the public read these already-reported findings?* )
+* To sell reporting which is not theirs (*how would one read the original published reports?* )
 * To distort and to fabricate (*who would check the facts? who could check the facts?* )
 
-While cases where journalists completely fabricate a scientific finding are not unheard of, most often they base their reporting on press releases of univeristies or institutes, or on abstracts openy published by scientific journals.
-On occasion they might try to contact the actual researcher via email to ask some questions (which is duly rebranded as “*lead researcher NAME tells MAGAZINE ...*”).
-So, while you might believe that science journalists translate dense information from primary sources while keeping things accurate for your convenience, the science news you actually read are but superficially rehashed summaries of simplified reports from elsewhere.
+While cases where journalists completely fabricate a scientific finding are not unheard of, most often they base their reporting on any of the following sources of information:
+
+* Interviews (needless to say - very rarely)
+* Emails sent to researchers to ask some question (duly portrayed as interviews in their writing: “*lead researcher NAME tells MAGAZINE ...*”)
+* Press releases from univeristies or institutes
+* Abstracts openy published by scientific journals
+* Other tangential pop-science articles
+* Immagination or vague recollection
+
+So, while you might believe that science journalists translate dense information from primary sources while keeping things accurate for your convenience; the science news you actually read are but superficially (and perhaps repeatedly) rehashed summaries of reports simplified elsewhere by other people.
+This is where science *news* actually comes from.
 
 ##Why Does One Read Pop-Science?
 
