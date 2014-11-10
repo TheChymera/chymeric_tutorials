@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Put science news into perspective"
+title: "Get a clear picture on Science News"
 date: 2014-11-01 01:17:20 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
@@ -27,7 +27,7 @@ We assume that this incorrect appraisal is based on a series of misconceptions a
 *There are, of course, rare and commendable exceptions to the trends detailed below.
 Some scientists do in fact dedicate part of their time to personally report in an easily-understandable language on their own and their colleagues' work.
 Also, some former science students or autodidacts may actually read, link to, and understand primary reports when writing articles.
-Lastly, a few top-tier [scientific journals](http://en.wikipedia.org/wiki/Scientific_journal) and scientific communities do manage to maintain well-cureted news sections (e.g. [Nature News](http://www.nature.com/news) or [physicsfocus](http://physicsfocus.org/), respectively).*
+Lastly, a few top-tier [scientific journals](http://en.wikipedia.org/wiki/Scientific_journal) and some scientific communities do manage to maintain well-cureted news sections (e.g. [Nature News](http://www.nature.com/news) or [physicsfocus](http://physicsfocus.org/), respectively).*
 
 *Sadly, these are not the science news you routinely come across.*
 
@@ -56,7 +56,7 @@ A more veracious motivational statement is in fact hidden in the the claim menti
 That is what many science journalists actually want to sell.
 In doing so, they reformat (or re-imagine) scientific discoveries according to a formula more closely resembling sci-fi than science education:
 high entertainment value, no prerequisites.
-Sadly, current research seldom conforms to this format;
+Current research, however, seldom makes fitting material for bombastic headlines (aptly satirised in [“Questiosn to which the Answer is No”](http://www.amazon.co.uk/Questions-Which-Answer-John-Rentoul/dp/1908739304/?_encoding=UTF8&camp=1638&creative=6742&linkCode=ur2&site-redirect=de&tag=chymeric_tutorials-21&linkId=3D7YH4GAD27FOIS7));
 and sacrificing insight to better deliver awe-inspiring reports leaves readers oblivious to crucial limitations of [primary](http://en.wikipedia.org/wiki/Primary_research)/[secondary](http://en.wikipedia.org/wiki/Secondary_research) research, research tools, and the [scientific method](http://en.wikipedia.org/wiki/Scientific_method).
 This incites both inappropriate expectations, and wild speculation as to why they are not being met - ranging from conspiracy theories to distrust in scientists' capabilities, but somehow omitting distrust for the actual reporter.
 
