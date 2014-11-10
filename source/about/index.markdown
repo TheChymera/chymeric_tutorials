@@ -2,6 +2,7 @@
 layout: page
 title: "about us"
 date: 2014-09-13 07:47
+updated: 2014-11-11 00:35
 author: Horea Christian
 comments: true
 sharing: true
@@ -12,7 +13,7 @@ Chymeric Tutorials is an open source publishing website. We are all about meetin
 
 * **What:** We host a regularly updated resource of thorough and reliable how-to, research, and documentation articles. Please view our [**tag cloud**](http://chymeric.eu/blog/categories/) to see what topics we write about, and browse by your areas of interest.
 
-* **How:** We keep our content neatly organized (completely separate from all design elements), and [seamlessly accessible](https://github.com/TheChymera/chymeric_tutorials/tree/master/source/_posts) - so that anybody can easily archive, contribute to, or reproduce our publishing efforts. Read more about the fantastic features of our super-minimal publishing concept below! 
+* **How:** We keep our content neatly organized (completely separate from all design elements), and [seamlessly accessible](https://github.com/TheChymera/chymeric_tutorials/tree/master/source/_posts) - so that anybody can easily archive, contribute to, or reproduce our publishing efforts. Read more about the fantastic features of our super-minimal publishing concept below!
 
 ##Features for Readers
 
@@ -28,10 +29,9 @@ Great! You can be sure it also covers any significant developments that may have
 
 As our pages get updated over time, we also provide the opportunity to browse our articles' histories:
 Our entire editing history is published on [GitHub](http://en.m.wikipedia.org/wiki/GitHub) under [this repository](https://github.com/TheChymera/chymeric_tutorials).
-For ease of reference, all our pages contain a link to the GitHub location of their respective files - the link is located at the bottom of each page and formatted as follows: 
+For ease of reference, all our pages contain a link to the GitHub location of their respective files - the link is located in the footer of each page and formatted as follows:
 
-> ---
-> <sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/about/index.markdown)!</sup>
+> <small>Authored by [Horea Christian](https://plus.google.com/117525803180879614771/posts) &bull; 2014-11-01 00:17 &bull; full history [here](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/about/index.markdown) &bull; education, journalism, science</small>
 
 Thanks to our thorough content tracking, those interested in referencing our work have both the option of linking to our website (which always shows the latest content) or to a specific revision on GitHub.
 The former would provide an up-to-date reference, while the latter would make sure that reference link content remains exactly the same.
@@ -51,14 +51,14 @@ As such it is very easy to just copy our repository content over an Octopress in
 We have put together a quick but comprehensive set of instructions for reproducing our website on our [repository README](https://github.com/TheChymera/chymeric_tutorials#reproduce-this-website).
 
 
-##Features for Contributors 
+##Features for Contributors
 
 Chymeric Tutorials greatly values open collaboration and multi-authorship - and we have designed our website just so that *you* can best modify its content.
 If you are interested in contributing, we took great care to make this as easy as possible while still providing a maximum of transparency and adequate proof-of-authorship.
 
 
 ### Fork and Write!
-Every article contains a link to its GitHub page at the very end. 
+Every article contains a link to its GitHub page at the very end.
 You can follow any of these links to our [GitHub repository](https://github.com/TheChymera/chymeric_tutorials), which you can *fork*.
 
 GitHub provides a nice visual interface for editing (automatically taking care of prerequisites such as forking).
@@ -77,6 +77,3 @@ A brief rundown:
 * Octopress-flavored kramdown syntax (as seen in any and all of our own posts)
 
 * Each phrase or “block of meaning” on a separate line (also as seen in any and all of our own posts)
-
----
-<sup>Browse the history of this file *or* find static versions to cite via [its GitHub page](https://github.com/TheChymera/chymeric_tutorials/blob/master/source/about/index.markdown)!</sup>
