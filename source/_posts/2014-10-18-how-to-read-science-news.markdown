@@ -94,7 +94,7 @@ This in torn makes both author and reader soundly unable to draw any pertinent c
 ##Why Does One Read Pop-Science?
 
 It would be folly to propose that the sorry state of popular science arises solely from journalists selling sub-par content to people who want something else entirely.
-While it is debatable whether offer gave rise to supply - or vice-versa - the reasons to read pop-science fall remarcably well into the pattern given by the reasons to write it.
+While it is debatable whether offer gave rise to supply - or vice-versa - the reasons to read pop-science fall remarkably well into the pattern given by the reasons to write it.
 
 Readers do not seek out pop-science to increase their understanding, they seek it for the thrill of awe-inspiring factoids or for moral guidance (or worse, support) on heated issues.
 So perhaps, in the appraisal of science news, being critical of one's own motivation to read is just as crucial as being critical of the journalist's personal credibility and sources.
