@@ -5,7 +5,7 @@ date: 2014-11-01 01:17:20 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
 comments: true
-published: false
+published: true
 categories: [science, journalism, education]
 ---
 
