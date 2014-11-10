@@ -9,9 +9,9 @@ published: true
 categories: [science, journalism, education]
 ---
 
-Pop-sciencee is currently no topic to overlook on social media.
+Pop-science is currently no topic to overlook on social media.
 Websites or social media groups sharing factoids or infographics amass millions of likes and receive a high number of content re-shares.
-In parallel, pop-science magazines also continue to attract many readers and have a strong online presence.
+In parallel, pop-science magazines also attract many readers and have a strong online presence.
 The scientific readership routinely recognizes pop-science reporting as inaccurate, misleading, or even outright wrong.
 Oblivious to most science reporters' lack of insight laymen may instead wonder:
 *Why does technology not deliver upon the promises made by pop-science?*
@@ -23,13 +23,13 @@ We assume that this incorrect appraisal is based on a series of misconceptions a
 
 <!-- more -->
 
-##Disclaimer
-There *are* rare and commendable exceptions to the trends detailed below.
+##Caveats
+*There are, of course, rare and commendable exceptions to the trends detailed below.
 Some scientists do in fact dedicate part of their time to personally report in an easily-understandable language on their own and their colleagues' work.
 Also, some former science students or autodidacts may actually read, link to, and understand primary reports when writing articles.
-Lastly, a few top-tier [scientific journals](http://en.wikipedia.org/wiki/Scientific_journal) and scientific communities do manage to maintain well-cureted news sections (e.g. [Nature News](http://www.nature.com/news) or [physicsfocus](http://physicsfocus.org/), respectively).
+Lastly, a few top-tier [scientific journals](http://en.wikipedia.org/wiki/Scientific_journal) and scientific communities do manage to maintain well-cureted news sections (e.g. [Nature News](http://www.nature.com/news) or [physicsfocus](http://physicsfocus.org/), respectively).*
 
-Sadly, these are not the science news you routinely come across.
+*Sadly, these are not the science news you routinely come across.*
 
 ##Who Writes Pop-Science?
 
@@ -99,12 +99,15 @@ While it is debatable whether offer gave rise to supply - or vice-versa - the re
 Readers do not seek out pop-science to increase their understanding, they seek it for the thrill of awe-inspiring factoids or for moral guidance (or worse, support) on heated issues.
 So perhaps, in the appraisal of science news, being critical of one's own motivation to read is just as crucial as being critical of the journalist's personal credibility and sources.
 
+###Entertainment
 Readers who seek entertainment should best beware that more often than not that is *exactly* what pop-science offers them:
 Brief entertainment - which is best not taken to heart as veritable fact after the reading is done.
 
+###Moral Guidance
 As a reader in search for moral guidance on heated issues, it is best to understand that reasearch is a process much different from debate.
 As [hypotheses](http://en.wikipedia.org/wiki/Hypothesis) go, making sense is a very cheap quality, and rhethorical accomplishment counts for little in scientific discourse.
-Plainly put, if you want to cut a debate short by falling back on science: a breathtakingly well-written article is worth naught without supporting primary references or meta-analyses that any reader can verify.
+Plainly put, if you want to cut a debate short by falling back on science: a breathtakingly well-written article is worth naught without supporting primary references or meta-analyses that the reader can verify.
 
+###Education
 Lastly, readers seeking to be informed on the developments of science might best look to obtain a clear picture of the respective research field elsewise - e.g. via academic [review articles](http://en.wikipedia.org/wiki/Review_article) and [tertiary sources](http://en.wikipedia.org/wiki/Tertiary_source), including Wikipedia.
 Only with a clear picture of current research in mind can one understand and interpret others' unclear writing (at which point that writing becomes less informative regarding the research, but more informative with regard to the author or publisher).
