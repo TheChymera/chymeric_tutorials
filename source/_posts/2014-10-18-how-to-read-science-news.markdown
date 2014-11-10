@@ -10,36 +10,35 @@ categories: [science, journalism, education]
 ---
 
 Pop-sciencee is currently no topic to overlook on social media.
-Websites or groups such as 8fact or IFLScience easily collect millions of likes and receive a high number of re-shares on their content.
-In parallel, pop-science magazines also continue to attract many readers and have a vast outreach on social networks.
+Websites or social media groups sharing factoids or infographics amass millions of likes and receive a high number of content re-shares.
+In parallel, pop-science magazines also continue to attract many readers and have a strong online presence.
 The scientific readership routinely recognizes pop-science reporting as inaccurate, misleading, or even outright wrong.
-Oblivious to most science reporters' lack of insight, however, laymen may instead wonder:
+Oblivious to most science reporters' lack of insight laymen may instead wonder:
 *Why does technology not deliver upon the promises made by pop-science?*
 or *Why are pop-science reports so inconsistent?*
 The answer to both questions is plainly: **very bad journalism**.
-However, instead of reflecting badly on its authors, consistently sub-par pop-science undermines the credibility of research: creating the impression that science overreaches and cannot deliver, or that there is gross disagreement in the scientific community - even when there is little.
+However, instead of reflecting badly on its authors, sub-par pop-science undermines the credibility of research: creating the impression that science overreaches and cannot deliver, or that there is gross disagreement in the scientific community - even when there is little.
 
 We assume that this incorrect appraisal is based on a series of misconceptions about what science news actually constitute, and we present a brief theoretical explanation of how one should best contextualize science journalism.
 
 <!-- more -->
 
 ##Disclaimer
-Without doubt, there are rare and exemplary exceptions to the trends detailed below.
+There *are* rare and commendable exceptions to the trends detailed below.
 Some scientists do in fact dedicate part of their time to personally report in an easily-understandable language on their own and their colleagues' work.
-Also, some former science students or autodidacts may actually understand and link to primary reports when writing an article.
-We are proud to explicitly name some of these exceptions (when naming authors, not necessarily recommending their publishers):
+Also, some former science students or autodidacts may actually read, link to, and understand primary reports when writing articles.
+Lastly, a few top-tier [scientific journals](http://en.wikipedia.org/wiki/Scientific_journal) and scientific communities do manage to maintain well-cureted news sections (e.g. [Nature News](http://www.nature.com/news) or [physicsfocus](http://physicsfocus.org/), respectively).
 
-* **Authors:** [Neuroskeptic](http://blogs.discovermagazine.com/neuroskeptic/)
-* **Networks:** [physicsfocus](http://physicsfocus.org/),
+Sadly, these are not the science news you routinely come across.
 
 ##Who Writes Pop-Science?
 
 Contrary to many a layman's impression, pop-science is seldom written by actual scientists or by people somehow affiliated to research.
-Admittedly, a very small number of science journalists may try to levrage extra credibility with some science degree obtained at some point in their lives, but alas, a BSc. does not a scientist make (and certainly not the brand of scientist who can report on topics across the board).
+Admittedly, a very small number of science journalists may try to leverage extra credibility with some quasi-relevant degree obtained at some point in their lives, but alas, a BSc. does not a scientist make - and certainly not one who can report on topics across the board.
 It is entirely possible, if not common, to coast through Master's or Bachelor's courses without ever being up-to-date with primary scientific literature
 - and certainly without acquiring the skills needed to critically report on it.
 
-To put science journalists' personal credibility into perspective: as a rule of thumb, there is little reason to assume that they are more educated on the subject matter than the average college graduate.
+To put science journalists' personal credibility into perspective: as a rule of thumb, there is little reason to assume they are any more educated on the subject matter than the average college graduate.
 Consequently, their writing should *never* be taken at face value in the absence of corroborating references.
 
 ##Why Does One Write Pop-Science?
@@ -53,7 +52,8 @@ Knowingly or otherwise, science journalists undermine science education, and ins
 
 ### Science as the Dancing Monkey
 A more veracious motivational statement is in fact hidden in the the claim mentioned above -
-“the wonders of science”; that is what many science journalists actually want to sell.
+“the wonders of science”.
+That is what many science journalists actually want to sell.
 In doing so, they reformat (or re-imagine) scientific discoveries according to a formula more closely resembling sci-fi than science education:
 high entertainment value, no prerequisites.
 Sadly, current research seldom conforms to this format;
@@ -81,29 +81,30 @@ In practice this translates into two licenses for pop-science journalists:
 While cases where journalists completely fabricate a scientific finding are not unheard of, most often they base their reporting on any of the following sources of information:
 
 * Interviews (needless to say - very rarely)
-* Emails sent to researchers to ask for clarification (duly portrayed as interviews in their writing: “*lead researcher NAME tells MAGAZINE ...*”)
-* [Press releases](http://www.scidev.net/global/communication/editorials/press-releases-may-be-tempting-but-they-miss-the-wider-picture.html) from universities or institutes
+* Emails sent to researchers (often implied as interviews: “*lead researcher NAME tells MAGAZINE ...*”)
+* Press releases from universities or institutes ([very often](http://www.scidev.net/global/communication/editorials/press-releases-may-be-tempting-but-they-miss-the-wider-picture.html))
 * Abstracts openly published by scientific journals
 * Other tangential pop-science articles
 * Imagination or vague recollection
 
 So, while you might believe that science journalists translate dense information from primary sources while keeping things accurate for your convenience; the science news you actually read are but superficially (and perhaps repeatedly) rehashed summaries of reports simplified elsewhere by other people.
-Among many other side effects, such repeated simplification by people other than the reader and the writer leaves them in the dark on what and why information was left out, and soundly unable to draw any pertinent conclusions in the article or based on the article.
+Such repeated simplification by people other than the article's author leaves both of him and his reader in the dark on why and what information was left out.
+This in torn makes both author and reader soundly unable to draw any pertinent conclusions in the article, or based on the article.
 
 ##Why Does One Read Pop-Science?
 
-It would be folly to assume that the sorry state of popular science arises solely from journalists selling sub-par content to people who want something else entirely.
-While it is debatable whether the offer gave rise to the supply, or vice-versa, the reasons to read pop-science fall very well into the pattern given by the reasons to write it.
+It would be folly to propose that the sorry state of popular science arises solely from journalists selling sub-par content to people who want something else entirely.
+While it is debatable whether offer gave rise to supply - or vice-versa - the reasons to read pop-science fall remarcably well into the pattern given by the reasons to write it.
 
-People do not seek out pop-science for understanding, they seek it for the thrill of awe-inspiring factoids or for moral guidance (or worse, support) on heated issues.
-So perhaps, in the appraisal of science news, being critical of one's own motivation to read is just as crucial as being critical of the journalists' sources and credibility.
+Readers do not seek out pop-science to increase their understanding, they seek it for the thrill of awe-inspiring factoids or for moral guidance (or worse, support) on heated issues.
+So perhaps, in the appraisal of science news, being critical of one's own motivation to read is just as crucial as being critical of the journalist's personal credibility and sources.
 
-Readers who seek entertainment should best beware that more often than not that is exactly what pop-science offers them:
+Readers who seek entertainment should best beware that more often than not that is *exactly* what pop-science offers them:
 Brief entertainment - which is best not taken to heart as veritable fact after the reading is done.
 
-Readers seeking to be informed on the developments of science might best look to obtain a clear picture of the respective research field otherwise - e.g. via academic [review articles](http://en.wikipedia.org/wiki/Review_article) and [tertiary](http://en.wikipedia.org/wiki/Tertiary_source) sources, including Wikipedia.
-Only with a clear picture of current research in mind can one understand and interpret others' unclear writing (at which point that writing becomes less informative regarding the research, but more informative with regard to the author or publisher).
+As a reader in search for moral guidance on heated issues, it is best to understand that reasearch is a process much different from debate.
+As [hypotheses](http://en.wikipedia.org/wiki/Hypothesis) go, making sense is a very cheap quality, and rhethorical accomplishment counts for little in scientific discourse.
+Plainly put, if you want to cut a debate short by falling back on science: a breathtakingly well-written article is worth naught without supporting primary references or meta-analyses that any reader can verify.
 
-Lastly, as a reader in search for moral guidance on heated issues, it is best to remember that science is by definition amoral.
-While the natural sciences continue to expand and to corner the metaphysical, and while we learn to ask questions rooted more and more rooted in the physical, most controversies still exceed the grasp of (natural) science.
-Where science *does* have an answer and that answer *does* represent a broad consensus, reputable academic reviews and tertiary sources will again likely detail it more accurately and objectively than a news piece.
+Lastly, readers seeking to be informed on the developments of science might best look to obtain a clear picture of the respective research field elsewise - e.g. via academic [review articles](http://en.wikipedia.org/wiki/Review_article) and [tertiary sources](http://en.wikipedia.org/wiki/Tertiary_source), including Wikipedia.
+Only with a clear picture of current research in mind can one understand and interpret others' unclear writing (at which point that writing becomes less informative regarding the research, but more informative with regard to the author or publisher).
