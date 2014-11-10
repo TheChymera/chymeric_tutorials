@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get a clear picture on Science News"
+title: "Get a clear picture of Science News"
 date: 2014-11-01 01:17:20 +0200
 author: Horea Christian
 googleplus_user: 117525803180879614771
