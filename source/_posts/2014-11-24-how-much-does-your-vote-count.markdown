@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how much does your vote count"
+title: "determine how much your vote counts"
 date: 2014-11-24 23:34:50 +0100
 author: Horea Christian
 googleplus_user: 117525803180879614771
