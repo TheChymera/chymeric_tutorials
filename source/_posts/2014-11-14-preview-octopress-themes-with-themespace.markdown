@@ -4,7 +4,7 @@ title: "Preview Octopress Themes with Theme-Space"
 date: 2014-11-14 05:45:41 +0100
 comments: true
 categories: [octopress, themes, design, themespace]
-published: false
+published: true
 ---
 
 The static site generator [Octopress](http://octopress.org/) is surrounded by a large community, which has [generated a large variety of themes](https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes) for it.
