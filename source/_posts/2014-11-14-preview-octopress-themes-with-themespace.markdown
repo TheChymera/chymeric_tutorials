@@ -34,5 +34,17 @@ A succinct how-to for publishing theme previews on Theme-Space is available in [
 This branch simply contains the standard octopress core, our scripts, and the aforementioned modified README, to help developers set up their previews.
 The theme previews are hosted on the *gh-pages* pranches of our respective theme forks.
 It is important to note here, that our workflow does not require our own theme forks to be up-to-date, but rather just pulls the newest versions directly form upstream.
+The previews are all available via `http://themespace.github.io/THEME-NAME/``
 
-  
+###Caveats:
+
+* For there to be a `http://themespace.github.io/THEME-NAME/` web address to publish to, a fort of the respective theme must first be created on the Theme-Space organization account.
+* To push to the Theme-Space fork branches, developers will have to be members of the organization (or manually be given push privileges)
+* While theme updates are seamless, octopress core updates still have to be done manually
+
+## The Organization
+
+To ease the burden of the aforementioned caveats, Theme-Space tries to be as open (and open-handed with organization membership) as reasonably possible.
+In principle, any Octopress theme developer is welcome to join, and will be given all required permissions on a moment's notice.
+
+To make it even easier for theme developers to benefit from the its scripts and concept, Theme-Space plans to become more distributed by designing its scripts to easily and safely be used by developers on their own repositories. 
