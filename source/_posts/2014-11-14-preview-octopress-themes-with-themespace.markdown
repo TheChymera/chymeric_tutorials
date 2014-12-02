@@ -27,3 +27,12 @@ Over on GitHub, [TheChymera](https://github.com/TheChymera) and [Yous](https://g
 * Publishing scripts for easy update of preview site themes.
 * Publishing scripts for easy update of the preview sites' Octopress core.
 * Moving previews to a *live* or pseudo-live state by using either [GitHub push notifications](https://help.github.com/articles/receiving-email-notifications-for-pushes-to-a-repository/), a [sync+inotify approach](http://chymeric.eu/blog/2014/10/17/remote-octopress-blogging/), or [Cron](http://en.wikipedia.org/wiki/Cron).
+
+## The Workflow
+
+A succinct how-to for publishing theme previews on Theme-Space is available in [the README file](https://github.com/themespace/octopress) of our octopress fork's *themespace* branch.
+This branch simply contains the standard octopress core, our scripts, and the aforementioned modified README, to help developers set up their previews.
+The theme previews are hosted on the *gh-pages* pranches of our respective theme forks.
+It is important to note here, that our workflow does not require our own theme forks to be up-to-date, but rather just pulls the newest versions directly form upstream.
+
+  
