@@ -14,6 +14,8 @@ Some developers maintain an empty demo site with the default theme, instead - a 
 
 To make maintaining true-to-the-default demos easier for developers, we present **Theme-Space** - a GitHub-based repository for Octopress theme previews.
 
+<!-- more -->
+
 ## The Concept
 
 Would it not be great if all Octopress themes had reliable ture-to-the-default previews for users to peruse at their convenience?
