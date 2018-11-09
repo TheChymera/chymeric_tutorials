@@ -81,7 +81,7 @@ It thus becomes mandatory to check for `IN_MOVED_TO` events rather than `IN_CLOS
 
 ##GitHub
 
-There are a number of published GutHub-based remote Octopress blogging solutions (the most noteworthy documented [here, by Holger Frohloff](http://5minutenpause.com/blog/2013/07/05/remote-posting-with-octopress/)).
+There are a number of published GitHub-based remote Octopress blogging solutions (the most noteworthy documented [here, by Holger Frohloff](http://5minutenpause.com/blog/2013/07/05/remote-posting-with-octopress/)).
 Such solutions - though feasible - generally require a bit more trial-and-error scripting and often assume you use not only GitHub, but also GitHub-pages.
 
 For GitHub users we, however, recommend the increasingly powerful web-interface for content creation or editing.
